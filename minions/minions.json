@@ -1,0 +1,20 @@
+{
+  "ACACIA": {
+    "max_tier": 11,
+    "generated_items_id": "log2",
+    "generated_item_damage": 0,
+    "quantity": "4",
+    1: {
+      "cooldown": 48,
+      "slots" : 1,
+      "tier": {
+        "to_actual": {
+          "item_source": "vanilla",
+          "item_id": "log2",
+          "item_damage": 0,
+          "quantity_slot": "10"
+        }
+      }
+    },
+  }
+}

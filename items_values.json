@@ -1,0 +1,35 @@
+{
+  "log2": {
+    0: {
+      "full_name": "Acacia Wood",
+      "in_bazaar": true,
+      "bazaar": {
+        "buy": 0,
+        "sell": 0
+      },
+      "in_npc": true,
+      "npc": {
+        "buy": 0,
+        "sell": 0
+      }
+    }
+  }
+}
+
+{
+  "Acacia Wood": {
+    "item_id": "log2",
+    "item_damage": 0,
+    "image_url": "https://",
+    "in_bazaar": true,
+    "bazaar": {
+      "buy": 0,
+      "sell": 0
+    },
+    "in_npc": true,
+    "npc": {
+      "buy": 0,
+      "sell": 0
+    }
+  }
+}

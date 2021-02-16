@@ -1,0 +1,77 @@
+{
+  "COAL" : {
+    "time" : 1800,
+    "_comments" : "30 mins",
+    "efficiency": 5
+  },
+  "COAL_BLOCK" : {
+    "time" : 18000,
+    "_comments" : "5 hours",
+    "efficiency": 5
+  },
+  "E_BREAD" : {
+    "time" : 43200,
+    "_comments" : "12 hours",
+    "efficiency": 5
+  },
+
+  "E_COAL" : {
+    "time" : 86400,
+    "_comments" : "24 hours",
+    "efficiency": 10
+  },
+
+  "E_CHARCOAL" : {
+    "time" : 129600,
+    "_comments" : "36 hours",
+    "efficiency": 20
+  },
+
+  "SOLAR_PANEL" : {
+    "time" : -1,
+    "_comments" : "infinite",
+    "efficiency": 25
+  },
+
+  "E_LAVA_BUCKET" : {
+    "time" : -1,
+    "_comments" : "infinite",
+    "efficiency": 25
+  },
+
+  "E_MAGMA_BUCKET" : {
+    "time" : -1,
+    "_comments" : "infinite",
+    "efficiency": 30
+  },
+
+  "E_PLASMA_BUCKET" : {
+    "time" : -1,
+    "_comments" : "infinite",
+    "efficiency": 35
+  },
+
+  "HAMSTER_WHEEL" : {
+    "time" : 86400,
+    "_comments" : "24 hours",
+    "efficiency": 50
+  },
+
+  "FOUL_FLESH" : {
+    "time" : 18000,
+    "_comments" : "5 hours",
+    "efficiency": 90
+  },
+
+  "CATALYST" : {
+    "time" : 10800,
+    "_comments" : "3 heures",
+    "efficiency": 300
+  },
+
+  "COAL" : {
+    "time" : 21600,
+    "_comments" : "6 heures",
+    "efficiency": 400
+  }
+}
