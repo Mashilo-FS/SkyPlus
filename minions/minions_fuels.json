@@ -1,77 +1,90 @@
 {
   "COAL" : {
     "time" : 1800,
-    "_comments" : "30 mins",
-    "efficiency": 5
+    "time_in_text" : "30 mins",
+    "efficiency": 5,
+    "type" : "speed"
   },
   "COAL_BLOCK" : {
     "time" : 18000,
-    "_comments" : "5 hours",
-    "efficiency": 5
+    "time_in_text" : "5 hours",
+    "efficiency": 5,
+    "type" : "speed"
   },
   "E_BREAD" : {
     "time" : 43200,
-    "_comments" : "12 hours",
-    "efficiency": 5
+    "time_in_text" : "12 hours",
+    "efficiency": 5,
+    "type" : "speed"
   },
 
   "E_COAL" : {
     "time" : 86400,
-    "_comments" : "24 hours",
-    "efficiency": 10
+    "time_in_text" : "24 hours",
+    "efficiency": 10,
+    "type" : "speed"
   },
 
   "E_CHARCOAL" : {
     "time" : 129600,
-    "_comments" : "36 hours",
-    "efficiency": 20
+    "time_in_text" : "36 hours",
+    "efficiency": 20,
+    "type" : "speed"
   },
 
   "SOLAR_PANEL" : {
     "time" : -1,
-    "_comments" : "infinite",
-    "efficiency": 25
+    "time_in_text" : "infinite",
+    "efficiency": 25,
+    "type" : "speed"
   },
 
   "E_LAVA_BUCKET" : {
     "time" : -1,
-    "_comments" : "infinite",
-    "efficiency": 25
+    "time_in_text" : "infinite",
+    "efficiency": 25,
+    "type" : "speed"
   },
 
   "E_MAGMA_BUCKET" : {
     "time" : -1,
-    "_comments" : "infinite",
-    "efficiency": 30
+    "time_in_text" : "infinite",
+    "efficiency": 30,
+    "type" : "speed"
   },
 
   "E_PLASMA_BUCKET" : {
     "time" : -1,
-    "_comments" : "infinite",
-    "efficiency": 35
+    "time_in_text" : "infinite",
+    "efficiency": 35,
+    "type" : "speed"
   },
 
   "HAMSTER_WHEEL" : {
     "time" : 86400,
-    "_comments" : "24 hours",
-    "efficiency": 50
+    "time_in_text" : "24 hours",
+    "efficiency": 50,
+    "type" : "speed"
   },
 
   "FOUL_FLESH" : {
     "time" : 18000,
-    "_comments" : "5 hours",
-    "efficiency": 90
+    "time_in_text" : "5 hours",
+    "efficiency": 90,
+    "type" : "speed"
   },
 
   "CATALYST" : {
     "time" : 10800,
-    "_comments" : "3 heures",
-    "efficiency": 300
+    "time_in_text" : "3 heures",
+    "efficiency": 300,
+    "type" : "multiply"
   },
 
-  "COAL" : {
+  "HYPER CATALYST" : {
     "time" : 21600,
-    "_comments" : "6 heures",
-    "efficiency": 400
+    "time_in_text" : "6 heures",
+    "efficiency": 400,
+    "type" : "multiply"
   }
 }

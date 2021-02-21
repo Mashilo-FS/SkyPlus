@@ -1,0 +1,79 @@
+{
+   "order": ["AUTO SMELTER", "FLINT SHOVEL", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "ENCHANTED EGG", "MINION EXPANDER", "FLYCATCHER"]
+   "AUTO SMELTER": {
+      "limit_per_minion": 1,
+      "other_upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "ore": {
+         "quantity_ore": 1,
+         "to": "unit",
+         "quantity_unit": 1
+      }
+   },
+   "COMPACTOR": {
+      "limit_per_minion": 1,
+      "other_upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "unit": {
+         "quantity_unit": 4,
+         "to": "mini-block",
+         "quantity_mini_block": 1
+      },
+      "unit": {
+         "quantity_unit": 9,
+         "to": "block",
+         "quantity_block": 1
+      }
+   },
+   "SUPER COMPACTOR 3000": {
+      "limit_per_minion": 1,
+      "other_upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"],
+      "transformation": {
+         "unit": {
+            "quantity_unit": 160,
+            "to": "enchanted",
+            "quantity_enchanted": 1
+         },
+         "enchanted": {
+            "quantity_enchanted": 160,
+            "to": "over_enchanted",
+            "quantity_over_enchanted": 1
+         }
+      }
+   },
+   "DWARVEN SUPER COMPACTOR": {
+      "limit_per_minion": 1,
+      "other_upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER","FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"]
+   },
+   "DIAMOND SPREADING": {
+      "limit_per_minion": 2,
+      "other_upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"],
+      "quantity_generated": 10,
+      "transformed": "DIAMOND",
+      "quantity": 1
+   },
+   "MINION EXPANDER": {
+      "limit_per_minion": 2,
+      "other_upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "FLINT SHOVEL", "ENCHANTED EGG",  "FLYCATCHER"],
+      "minion_speed": 1.05
+   },
+   "FLINT SHOVEL": {
+      "limit_per_minion": 1,
+      "other_upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "ENCHANTED EGG",  "FLYCATCHER"],
+      "ressource": "GRAVEL",
+      "for": 1,
+      "transformed": "FLINT",
+      "quantity": 1
+   },
+   "ENCHANTED EGG": {
+      "limit_per_minion": 1,
+      "other_upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "ressource": "",
+      "for": 1,
+      "transformed": "EGG",
+      "quantity": 1
+   },
+   "FLYCATCHER": {
+      "limit_per_minion": 2,
+      "other_upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG"],
+      "minion_speed": 1.20
+   }
+}

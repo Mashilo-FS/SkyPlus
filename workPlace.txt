@@ -1,0 +1,27 @@
+acacia, oak, spruce, birch, dark oak, jungle, cactus minions: 
+-Effects of the minion expander (fait rien)
+-Effects of the Auto Smelter (marche pas)
+chicken minions:
+-Effects of the Auto Smelter (marche pas)
+
+
+
+
+
+FLOWER MINION : 
+-total generated : 5760 (7810-2050)
+
+-DANDELION : 2022          %:0.34
+-POPPY : 845                    %:0.18
+-SUNFLOWER : 196           %:0.04 +
+-ROSE BUSH : 243             %:0.04
+-OXEYE DAISY : 230          %:0.04
+-ALLIUM : 267                   %:0.04 +
+-PEONY : 249                    %:0.04 +
+-LILAC : 226                     %:0.04
+-ORANGE TULIP : 243         %:0.04
+-RED TULIP : 294               %:0.04
+-WHITE TULIP : 252           %:0.04 +
+-PINK TULIP: 252               %:0.04 +
+-AZURE BLUET : 246           %:0.04
+-BLUE ORCHID : 195           %:0.04
