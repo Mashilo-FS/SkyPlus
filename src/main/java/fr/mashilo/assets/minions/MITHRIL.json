@@ -1,0 +1,128 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 80,
+         "recipe": {
+            "first_craft_item": "WOODEN_PICKAXE",
+            "quantity_per_slot": 10,
+            "type": "craft",
+            "items": ["MITHRIL_ORE"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 80,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": ["MITHRIL_ORE"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 75,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": ["MITHRIL_ORE"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 75,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["MITHRIL_ORE"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 70,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 70,
+         "recipe": {
+            "quantity_per_slot": 3,
+            "type": "craft",
+            "items": ["ENCHANTED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 65,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 65,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 60,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 60,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 55,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["REFINED_MITHRIL"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 50,
+         "recipe": {
+            "npc": "Bulvar",
+            "buy": {
+               "quantity": 16,
+               "price": "2_000_000",
+               "content": "REFINED_MITHRIL"
+            },
+            "type": "buy"
+         }
+      }
+   ],
+   "folder": "/assets/minions/Mithril",
+   "quantity": [2],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "MITHRIL",
+   "generated_items": ["MITHRIL_ORE"]
+}

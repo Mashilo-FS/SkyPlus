@@ -64,3 +64,9 @@ node_modules/
 
 # dotenv environment variables file
 .env
+.gradle/5.2.1/executionHistory/executionHistory.lock
+.gradle/5.2.1/executionHistory/executionHistory.lock
+
+#Configuration File with sensitive informations
+src/main/java/fr/mashilo/Config.java
+*.lock

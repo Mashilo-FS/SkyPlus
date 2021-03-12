@@ -1,0 +1,121 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 26,
+         "recipe": {
+            "first_craft_item": "WOODEN_SWORD",
+            "quantity_per_slot": 10,
+            "type": "craft",
+            "items": ["ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": ["ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 24,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": ["ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 24,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 22,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 22,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 20,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 20,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 17,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 17,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 13,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_ROTTEN_FLESH"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Zombie",
+   "quantity": [
+      1,
+      0.025
+   ],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "ZOMBIE",
+   "generated_items": [
+      "ROTTEN_FLESH",
+      "POISONOUS_POTATO"
+   ]
+}

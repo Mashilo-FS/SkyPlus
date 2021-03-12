@@ -1,0 +1,155 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 30,
+         "recipe": {
+            "first_craft_item": "WOODEN_HOE",
+            "quantity_per_slot": 10,
+            "type": "craft",
+            "items": [
+               "BROWN_MUSHROOM",
+               "RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 30,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": [
+               "BROWN_MUSHROOM",
+               "RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 28,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": [
+               "BROWN_MUSHROOM",
+               "RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 28,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": [
+               "BROWN_MUSHROOM",
+               "RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 20,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 20,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 16,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": [
+               "ENCHANTED_BROWN_MUSHROOM",
+               "ENCHANTED_RED_MUSHROOM"
+            ]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Mushroom",
+   "quantity": [
+      0.5,
+      0.5
+   ],
+   "upgrades_compatible": [
+      "COMPACTOR",
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "MUSHROOM",
+   "generated_items": [
+      "BROWN_MUSHROOM",
+      "RED_MUSHROOM"
+   ]
+}

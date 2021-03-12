@@ -1,0 +1,115 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "first_craft_item": "WOODEN_AXE",
+            "quantity_per_slot": 10,
+            "type": "craft",
+            "items": ["LOG:1"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": ["LOG:1"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 45,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": ["LOG:1"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 45,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["LOG:1"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 42,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 42,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 38,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 38,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 33,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 33,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 27,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_SPRUCE_LOG"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Spruce",
+   "quantity": [4],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "SPRUCE",
+   "generated_items": ["LOG:1"]
+}

@@ -1,0 +1,137 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 29,
+         "recipe": {
+            "first_craft_item": "ENCHANTED_FERMENTED_SPIDER_EYE",
+            "quantity_per_slot": 10,
+            "type": "slayer",
+            "items": ["TARANTULA_WEB"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "slayer",
+            "extra_item": "SPIDER_1",
+            "items": ["TARANTULA_WEB"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "slayer",
+            "extra_item": "SPIDER_2",
+            "items": ["TARANTULA_WEB"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "slayer",
+            "extra_item": "SPIDER_3",
+            "items": ["TARANTULA_WEB"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "slayer",
+            "extra_item": "SPIDER_4",
+            "items": ["TARANTULA_SILK"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "slayer",
+            "extra_item": "SPIDER_5",
+            "items": ["TARANTULA_SILK"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "slayer",
+            "extra_item": "SPIDER_6",
+            "items": ["TARANTULA_SILK"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "slayer",
+            "extra_item": "SPIDER_7",
+            "items": ["TARANTULA_SILK"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "slayer",
+            "extra_item": "SPIDER_8",
+            "items": ["TARANTULA_SILK"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "slayer",
+            "extra_item": "SPIDER_9",
+            "items": ["TARANTULA_SILK"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "slayer",
+            "extra_item": "SPIDER_10",
+            "items": ["TARANTULA_SILK"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Tarantula",
+   "quantity": [
+      3.16,
+      1,
+      1
+   ],
+   "upgrades_compatible": [
+      "AUTO SMELTER",
+      "COMPACTOR",
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLINT SHOVEL",
+      "ENCHANTED_EGG",
+      "FLYCATCHER"
+   ],
+   "name": "TARANTULA",
+   "generated_items": [
+      "STRING",
+      "SPIDER_EYE",
+      "IRON_INGOT"
+   ]
+}

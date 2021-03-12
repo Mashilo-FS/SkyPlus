@@ -1,5 +1,6 @@
 {
    "ACACIA": {
+      "name" : "Acacia Minion",
       "folder": "/assets/minions/Acacia",
       "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["ACACIA WOOD"],
@@ -108,6 +109,7 @@
       ]
    },
    "BIRCH": {
+      "name" : "BIRCH",
       "folder": "/assets/minions/Birch",
       "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["BIRCH WOOD"],
@@ -145,7 +147,7 @@
             "cooldown": 45,
             "slots" : 6,
             "recipe": {
-               "type": "craft",]
+               "type": "craft",
                "items": ["BIRCH WOOD"],
                "quantity_per_slot": 64
             }
@@ -213,10 +215,10 @@
                "quantity_per_slot": 64
             }
          }
-      ],
-
+      ]
    },
    "BLAZE": {
+      "name" : "BLAZE",
       "folder": "/assets/minions/Blaze",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["BLAZE ROD"],
@@ -325,6 +327,7 @@
       ]
    },
    "CACTUS": {
+      "name" : "CACTUS",
       "folder": "/assets/minions/Cactus",
       "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["CACTUS"],
@@ -433,6 +436,7 @@
       ]
    },
    "CARROT": {
+      "name" : "CARROT",
       "folder": "/assets/minions/Carrot",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["CARROT"],
@@ -541,6 +545,7 @@
       ]
    },
    "CAVE_SPIDER": {
+      "name" : "CAVE_SPIDER",
       "folder": "/assets/minions/Cave Spider",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["SPIDER EYE", "STRING"],
@@ -649,6 +654,7 @@
       ]
    },
    "CHICKEN": {
+      "name" : "CHICKEN",
       "folder": "/assets/minions/Chicken",
       "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "ENCHANTED EGG", "FLYCATCHER"],
       "generated_items": ["RAW CHICKEN", "FEATHER"],
@@ -757,6 +763,7 @@
       ]
    },
    "CLAY": {
+      "name" : "CLAY",
       "folder": "/assets/minions/Clay",
       "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["CLAY"],
@@ -865,6 +872,7 @@
       ]
    },
    "COAL": {
+      "name" : "COAL",
       "folder": "/assets/minions/Coal",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["COAL"],
@@ -986,6 +994,7 @@
       ]
    },
    "COBBLESTONE": {
+      "name" : "COBBLESTONE",
       "folder": "/assets/minions/Cobblestone",
       "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["COBBLESTONE"],
@@ -1107,6 +1116,7 @@
       ]
    },
    "COCOA_BEANS": {
+      "name" : "COCOA_BEANS",
       "folder": "/assets/minions/Cocoa Beans",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["COCOA BEANS"],
@@ -1216,6 +1226,7 @@
 
    },
    "COW": {
+      "name" : "COW",
       "folder": "/assets/minions/Cow",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["RAW BEEF", "LEATHER"],
@@ -1324,6 +1335,7 @@
       ]
    },
    "CREEPER": {
+      "name" : "CREEPER",
       "folder": "/assets/minions/Creeper",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["GUNPOWDER"],
@@ -1432,6 +1444,7 @@
       ]
    },
    "DARK_OAK": {
+      "name" : "DARK_OAK",
       "folder": "/assets/minions/Dark Oak",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["DARK OAK WOOD"],
@@ -1540,6 +1553,7 @@
       ]
    },
    "DIAMOND": {
+      "name" : "DIAMOND",
       "folder": "/assets/minions/Diamond",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["DIAMOND"],
@@ -1653,7 +1667,7 @@
                "npc": "Bulvar",
                "buy": {
                   "price": 2_000_000,
-                  "content": "ENCHANTED DIAMOND BLOCK"],
+                  "content": "ENCHANTED DIAMOND BLOCK",
                   "quantity": 16
                }
             }
@@ -1661,6 +1675,7 @@
       ]
    },
    "EMERALD": {
+      "name" : "EMERALD",
       "folder": "/assets/minions/Emerald",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["EMERALD"],
@@ -1782,6 +1797,7 @@
       ]
    },
    "END_STONE": {
+      "name" : "END_STONE",
       "folder": "/assets/minions/End Stone",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["END STONE"],
@@ -1890,6 +1906,7 @@
       ]
    },
    "ENDERMAN": {
+      "name" : "ENDERMAN",
       "folder": "/assets/minions/Enderman",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["ENDER PEARL"],
@@ -1998,6 +2015,7 @@
       ]
    },
    "FISHING": {
+      "name" : "FISHING",
       "folder": "/assets/minions/Fishing",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["RAW FISH", "RAW SALMON", "PUFFERFISH", "CLOWNFISH", "PRISMARINE CRYSTALS", "PRISMARINE SHARD", "SPONGE"],
@@ -2106,6 +2124,7 @@
       ]
    },
    "FLOWER": {
+      "name" : "FLOWER",
       "folder": "/assets/minions/Flower",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["DANDELION", "POPPY", "SUNFLOWER", "PEONY", "ORANGE TULIP", "AZURE BLUET", "PINK TULIP", "OXEYE DAISY", "ALLIUM", "ROSE BUSH", "RED TULIP", "WHITE TULIP", "BLUE ORCHID", "LILAC"],
@@ -2215,6 +2234,7 @@
       ]
    },
    "GHAST": {
+      "name" : "GHAST",
       "folder": "/assets/minions/Ghast",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["GHAST TEAR"],
@@ -2323,6 +2343,7 @@
       ]
    },
    "GLOWSTONE": {
+      "name" : "GLOWSTONE",
       "folder": "/assets/minions/Glowstone",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["GLOWSTONE DUST"],
@@ -2431,6 +2452,7 @@
       ]
    },
    "GOLD": {
+      "name" : "GOLD",
       "folder": "/assets/minions/Gold",
       "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["GOLD ORE"],
@@ -2544,7 +2566,7 @@
                "npc": "Bulvar",
                "buy": {
                   "price": 2_000_000,
-                  "content": "ENCHANTED GOLD BLOCK"],
+                  "content": "ENCHANTED GOLD BLOCK",
                   "quantity": 16
                }
             }
@@ -2552,10 +2574,11 @@
       ]
    },
    "GRAVEL": {
+      "name" : "GRAVEL",
       "folder": "/assets/minions/Gravel",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "FLYCATCHER"],
-      "generated_items": ["GRAVEL"],
-      "quantity": [1],
+      "generated_items": ["GRAVEL", "FLINT"],
+      "quantity": [1, 0.1],
       "tiers": [
          {
             "cooldown": 26,
@@ -2660,6 +2683,7 @@
       ]
    },
    "ICE": {
+      "name" : "ICE",
       "folder": "/assets/minions/Ice",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["ICE"],
@@ -2768,6 +2792,7 @@
       ]
    },
    "IRON": {
+      "name" : "IRON",
       "folder": "/assets/minions/Iron",
       "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["IRON ORE"],
@@ -2889,6 +2914,7 @@
       ]
    },
    "JUNGLE": {
+      "name" : "JUNGLE",
       "folder": "/assets/minions/Jungle",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["JUNGLE WOOD"],
@@ -2997,6 +3023,7 @@
       ]
    },
    "LAPIS": {
+      "name" : "LAPIS",
       "folder": "/assets/minions/Lapis",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["LAPIS LAZULI"],
@@ -3118,6 +3145,7 @@
       ]
    },
    "MAGMA_CUBE": {
+      "name" : "MAGMA_CUBE",
       "folder": "/assets/minions/Magma Cube",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["MAGMA CREAM"],
@@ -3226,6 +3254,7 @@
       ]
    },
    "MELON": {
+      "name" : "MELON",
       "folder": "/assets/minions/Melon",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["MELON"],
@@ -3334,6 +3363,7 @@
       ]
    },
    "MITHRIL": {
+      "name" : "MITHRIL",
       "folder": "/assets/minions/Mithril",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["MITHRIL"],
@@ -3447,7 +3477,7 @@
                "npc": "Bulvar",
                "buy": {
                   "price": 2_000_000,
-                  "content": "REFINED MITHRIL"],
+                  "content": "REFINED MITHRIL",
                   "quantity": 16
                }
             }
@@ -3455,6 +3485,7 @@
       ]
    },
    "MUSHROOM": {
+      "name" : "MUSHROOM",
       "folder": "/assets/minions/Mushroom",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["BROWN MUSHROOM", "RED MUSHROOM"],
@@ -3563,6 +3594,7 @@
       ]
    },
    "NETHER_WART": {
+      "name" : "NETHER_WART",
       "folder": "/assets/minions/Nether Wart",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["NETHER WART"],
@@ -3671,6 +3703,7 @@
       ]
    },
    "OAK": {
+      "name" : "OAK",
       "folder": "/assets/minions/Oak",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["OAK WOOD"],
@@ -3779,6 +3812,7 @@
       ]
    },
    "OBSIDIAN": {
+      "name" : "OBSIDIAN",
       "folder": "/assets/minions/Obsidian",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["OBSIDIAN"],
@@ -3900,6 +3934,7 @@
       ]
    },
    "PIG": {
+      "name" : "PIG",
       "folder": "/assets/minions/Pig",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["RAW PORKCHOP"],
@@ -4008,6 +4043,7 @@
       ]
    },
    "POTATO": {
+      "name" : "POTATO",
       "folder": "/assets/minions/Potato",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["POTATO"],
@@ -4116,6 +4152,7 @@
       ]
    },
    "PUMPKIN": {
+      "name" : "PUMPKIN",
       "folder": "/assets/minions/Pumpkin",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["PUMPKIN"],
@@ -4224,6 +4261,7 @@
       ]
    },
    "QUARTZ": {
+      "name" : "QUARTZ",
       "folder": "/assets/minions/Quartz",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["NETHER QUARTZ"],
@@ -4332,6 +4370,7 @@
       ]
    },
    "RABBIT": {
+      "name" : "RABBIT",
       "folder": "/assets/minions/Rabbit",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["RAW RABBIT", "RABBIT'S FOOT", "RABBIT HIDE"],
@@ -4440,6 +4479,7 @@
       ]
    },
    "REDSTONE": {
+      "name" : "REDSTONE",
       "folder": "/assets/minions/Redstone",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["REDSTONE"],
@@ -4561,6 +4601,7 @@
       ]
    },
    "REVENANT": {
+      "name" : "REVENANT",
       "folder": "/assets/minions/Revenant",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["ROTTEN FLESH", "DIAMOND"],
@@ -4679,6 +4720,7 @@
       ]
    },
    "SAND": {
+      "name" : "SAND",
       "folder": "/assets/minions/Sand",
       "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["SAND"],
@@ -4787,6 +4829,7 @@
       ]
    },
    "SHEEP": {
+      "name" : "SHEEP",
       "folder": "/assets/minions/Sheep",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["MUTTON", "WHITE WOOL"],
@@ -4895,6 +4938,7 @@
       ]
    },
    "SKELETON": {
+      "name" : "SKELETON",
       "folder": "/assets/minions/Skeleton",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["BONE"],
@@ -5003,6 +5047,7 @@
       ]
    },
    "SLIME": {
+      "name" : "SLIME",
       "folder": "/assets/minions/Slime",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["SLIMEBALL"],
@@ -5111,6 +5156,7 @@
       ]
    },
    "SNOW": {
+      "name" : "SNOW",
       "folder": "/assets/minions/Snow",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["SNOWBALL"],
@@ -5216,6 +5262,7 @@
       ]
    },
    "SPIDER": {
+      "name" : "SPIDER",
       "folder": "/assets/minions/Spider",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["STRING", "SPIDER EYE"],
@@ -5314,7 +5361,7 @@
          },
          {
             "cooldown": 13,
-            "slots" : 1,5
+            "slots" : 15,
             "recipe": {
                "type": "craft",
                "items": ["ENCHANTED STRING"],
@@ -5324,6 +5371,7 @@
       ]
    },
    "SPRUCE": {
+      "name" : "SPRUCE",
       "folder": "/assets/minions/Spruce",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["SPRUCE WOOD"],
@@ -5432,6 +5480,7 @@
       ]
    },
    "SUGAR_CANE": {
+      "name" : "SUGAR_CANE",
       "folder": "/assets/minions/Sugar Cane",
       "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"],
       "generated_items": ["SUGAR CANE"],
@@ -5540,6 +5589,7 @@
       ]
    },
    "TARANTULA": {
+      "name" : "TARANTULA",
       "folder": "/assets/minions/Tarantula",
       "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"],
       "generated_items": ["ACACIA WOOD"],
@@ -5658,6 +5708,7 @@
       ]
    },
    "WHEAT": {
+      "name" : "WHEAT",
       "folder": "/assets/minions/Wheat",
       "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["WHEAT", "SEEDS"],
@@ -5766,6 +5817,7 @@
       ]
    },
    "ZOMBIE": {
+      "name" : "ZOMBIE",
       "folder": "/assets/minions/Zombie",
       "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
       "generated_items": ["ROTTEN FLESH", "POISONOUS POTATO"],
@@ -5872,5 +5924,5 @@
             }
          }
       ]
-   },
+   }
 }

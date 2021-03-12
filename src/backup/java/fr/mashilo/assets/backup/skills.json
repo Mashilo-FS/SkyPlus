@@ -1,0 +1,62 @@
+{
+   "FARMING": {
+      "WHEAT": [
+         {
+            "needed": 50,
+            "loot": ["WHEAT_MINION"]
+         },
+         {
+            "needed": 100,
+            "loot": ["ENCHANTED_BOOK"]
+         },
+         {
+            "needed": 250,
+            "loot": ["FARM_SUIT_SET"]
+         },
+         {
+            "needed": 500,
+            "loot": ["FARMING_TALISMAN"]
+         },
+         {
+            "needed": 1_000,
+            "loot": ["ENCHANTED_BREAD"]
+         },
+         {
+            "needed": 2_500,
+            "loot": ["FARMING_ISLAND"]
+         },
+         {
+            "needed": 10_000,
+            "loot": ["ENCHANTED_HAY_BALE", "SMALL_AGRONOMY_SACK"]
+         },
+         {
+            "needed": 15_000,
+            "loot": ["MEDIUM_AGRONOMY_SACK"]
+         },
+         {
+            "needed": 25_000,
+            "loot": ["FARM_ARMOR"]
+         },
+         {
+            "needed": 50_000,
+            "loot": ["LARGE_AGRONOMY_SACK"]
+         },
+         {
+            "needed": 100_000,
+            "loot": ["TIGHTLY-TIED_HAY_BALE"]
+         }
+      ]
+   },
+   "MINING": {
+
+   },
+   "COMBAT": {
+
+   },
+   "FORAGING": {
+
+   },
+   "FISHING": {
+
+   }
+}

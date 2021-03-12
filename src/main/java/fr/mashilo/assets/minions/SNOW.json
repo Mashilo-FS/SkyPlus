@@ -1,0 +1,111 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 13,
+         "recipe": {"type": "gifts"}
+      },
+      {
+         "slots": 3,
+         "cooldown": 13,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": ["SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 12,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 12,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 11,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 11,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 9.5,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 9.5,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "craft",
+            "items": ["ENCHANTED_SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 8,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": ["ENCHANTED_SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 8,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_SNOW_BLOCK"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 6.5,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_SNOW_BLOCK"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Snow",
+   "quantity": [4],
+   "upgrades_compatible": [
+      "COMPACTOR",
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "SNOW",
+   "generated_items": ["SNOW_BALL"]
+}

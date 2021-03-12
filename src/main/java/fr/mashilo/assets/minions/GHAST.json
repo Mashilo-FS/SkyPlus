@@ -1,0 +1,115 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 50,
+         "recipe": {
+            "first_craft_item": "WOODEN_SWORD",
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["GHAST_TEAR"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 50,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["GHAST_TEAR"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 47,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["GHAST_TEAR"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 47,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["GHAST_TEAR"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 44,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_GHAST_TEAR"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 44,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_GHAST_TEAR"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 41,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": ["SILVER_FANG"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 41,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["SILVER_FANG"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 38,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["SILVER_FANG"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 38,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["SILVER_FANG"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 32,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["SILVER_FANG"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Ghast",
+   "quantity": [1],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "GHAST",
+   "generated_items": ["GHAST_TEAR"]
+}

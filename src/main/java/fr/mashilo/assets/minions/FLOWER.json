@@ -1,0 +1,144 @@
+{
+   "tiers": [
+      {
+         "slots": 15,
+         "cooldown": 30,
+         "recipe": {
+            "npc": "Sirius",
+            "buy": {"price": "8_500_000"},
+            "type": "buy"
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 29,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": ["DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 28,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": ["DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 27,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 25,
+         "recipe": {
+            "quantity_per_slot": 3,
+            "type": "craft",
+            "items": ["ENCHANTED_DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 24,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 22,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 20,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_DANDELION"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 18,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_POPPY"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Flower",
+   "quantity": [
+      0.34,
+      0.152,
+      0.03,
+      0.043,
+      0.043,
+      0.043,
+      0.043,
+      0.043,
+      0.043,
+      0.043,
+      0.045,
+      0.043,
+      0.043,
+      0.043
+   ],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "FLOWER",
+   "generated_items": [
+      "DANDELION",
+      "POPPY",
+      "SUNFLOWER",
+      "PEONY",
+      "ORANGE_TULIP",
+      "AZURE_BLUET",
+      "PINK_TULIP",
+      "OXEYE_DAISY",
+      "ALLIUM",
+      "ROSE_BUSH",
+      "RED_TULIP",
+      "WHITE_TULIP",
+      "BLUE_ORCHID",
+      "LILAC"
+   ]
+}

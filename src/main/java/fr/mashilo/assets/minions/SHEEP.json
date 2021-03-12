@@ -1,0 +1,121 @@
+{
+   "tiers": [
+      {
+         "slots": 2,
+         "cooldown": 48,
+         "recipe": {
+            "first_craft_item": "WOODEN_AXE",
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["MUTTON"]
+         }
+      },
+      {
+         "slots": 4,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 3,
+            "type": "craft",
+            "items": ["ENCHANTED_MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_MUTTON"]
+         }
+      },
+      {
+         "slots": 1,
+         "cooldown": 48,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_COOKED_MUTTON"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Sheep",
+   "quantity": [
+      1,
+      1
+   ],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "SHEEP",
+   "generated_items": [
+      "MUTTON",
+      "WHITE_WOOL"
+   ]
+}

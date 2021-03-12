@@ -1,0 +1,70 @@
+{
+   "market": {
+      "in_npc": true,
+      "npc": {
+         "buy": 0,
+         "sell": 0,
+         "name": "name_of_the_npc"
+      },
+      "in_bazaar": true,
+      "bazaar": {
+         "buy": 208.3,
+         "sell": 182.71349450549448
+      }
+   },
+   "recipes": {
+      "trade": {
+         "level": 5,
+         "collection": "SLIMEBALL"
+      },
+      "furnace": {
+         "quantity": 1,
+         "for": "IRON_ORE"
+      },
+      "forge": {
+         "duration": 21600,
+         "quantity": 1,
+         "for": [
+            160,
+            "ENCHANTED_MITHRIL"
+         ],
+         "hotm_level": 2
+      },
+      "craft": {
+         "slayer": {
+            "boss": "SLAYER_BOSS_ZOMBIE",
+            "level": 7
+         },
+         "quantity": 1,
+         "is_slayer": true,
+         "for": [
+            128,
+            "ENCHANTED_CARROT",
+            32,
+            "GOLDEN_CARROT"
+         ]
+      }
+   },
+   "names": {
+      "ne": "Translation comming soon",
+      "ja": "Translation comming soon",
+      "en": "Acacia Wood",
+      "it": "Translation comming soon",
+      "fr": "Translation comming soon",
+      "ge": "Translation comming soon",
+      "es": "Translation comming soon"
+   },
+   "collection": {
+      "level": 5,
+      "hasCollection": true,
+      "ressource": "Redstone"
+   },
+   "family": {
+      "unit": "unit",
+      "ore": "ore",
+      "enchanted": "enchanted",
+      "over_enchanted": "bullshit",
+      "block": "block",
+      "mini-block": "bloc"
+   }
+}
