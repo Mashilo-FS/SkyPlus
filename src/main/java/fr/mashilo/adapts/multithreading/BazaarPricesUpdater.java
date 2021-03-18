@@ -9,9 +9,7 @@ import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
-import java.nio.file.Path;
 import java.util.Iterator;
 
 public class BazaarPricesUpdater extends Thread {
@@ -24,51 +22,51 @@ public class BazaarPricesUpdater extends Thread {
     }
     public void run(){
         try{
-            JSONObject response = new JSONObject(WebAPI.get(Config.API_BAZAAR_URL + Config.APIKEY).toString()).getJSONObject("products");
-            for (Iterator<String> it = response.keys(); it.hasNext(); ) {
-                String next = it.next();
-                String itemFileName = new NamingConvention().convert(next);
+            JSONObject raw_response = new JSONObject(WebAPI.get(Config.API_BAZAAR_URL + Config.APIKEY).toString());
+            JSONObject response = raw_response.getJSONObject("products");
+            for (Iterator<String> iterator = response.keys() ; iterator.hasNext(); ){
+                String next = iterator.next();
+                String itemLocalName = new NamingConvention().convert(next);
                 try{
-                    File file = new File(Config.ITEMS_FOLDER + itemFileName + ".json");
-                    FileWriter fileWriter = new FileWriter(file.getPath());
-                    fileWriter.write("{\n\n}");
+                    File localFile = new File(Config.ITEMS_FOLDER + itemLocalName + ".json");
+                    if (!localFile.exists()){
+                        fileWriter = new FileWriter(localFile.getPath());
+                        fileWriter.write(
+                                JSONAdapter.JSONReader(Config.ITEMS_FOLDER + "defaultItem.json").toString(3)
+                        );
+                    }
+                    else {
+                        JSONObject itemFile = JSONAdapter.JSONReader(localFile.getPath());
+                        itemFile.getJSONObject("market").put("in_bazaar", true);
+                        itemFile.getJSONObject("market").getJSONObject("bazaar").put(
+                                "buy",
+                                response.getJSONObject(next).getJSONObject("quick_status").getDouble("buyPrice")
+                        );
+                        itemFile.getJSONObject("market").getJSONObject("bazaar").put(
+                                "sell",
+                                response.getJSONObject(next).getJSONObject("quick_status").getDouble("sellPrice")
+                        );
+                        fileWriter = new FileWriter(localFile.getPath());
+                        fileWriter.write(itemFile.toString(3));
+                    }
                     fileWriter.flush();
                     fileWriter.close();
-                    if (file.exists()){
-                        try{
-                            JSONObject itemFile = JSONAdapter.JSONReader(file.getPath());
-                            itemFile.getJSONObject("market").getJSONObject("bazaar").put(
-                                    "buy",
-                                    response.getJSONObject(next).getJSONObject("quick_status").getDouble("buyPrice")
-                            );
-                            itemFile.getJSONObject("market").getJSONObject("bazaar").put(
-                                    "sell",
-                                    response.getJSONObject(next).getJSONObject("quick_status").getDouble("sellPrice")
-                            );
 
-                            fileWriter = new FileWriter(file.getPath());
-                            fileWriter.write(itemFile.toString(3));
-                            fileWriter.flush();
-                            fileWriter.close();
-                        }catch (JSONException ex){
-                            System.out.println("Erreur fichier pour " + itemFileName);
-                            System.out.println("Création du fichier pour " + itemFileName);
-                            fileWriter = new FileWriter(file.getPath());
-                            fileWriter.write(JSONAdapter.JSONReader(Config.ITEMS_FOLDER + "items" + ".json").getJSONObject(itemFileName).toString(3));
-                            fileWriter.flush();
-                            fileWriter.close();
-
-                            System.out.println(ex.getMessage());;
-                            System.out.println(file.getPath());
-                        }
-
-                    }
-
-                } catch (NoSuchFileException ex){
+                } catch (Exception ex){
                     ex.printStackTrace();
-                    System.out.println("Erreur Fichiers ITEM pour : " + itemFileName);
                 }
             }
+
+            JSONObject lastUpdatedJson = JSONAdapter.JSONReader(Config.ITEMS_FOLDER + "last_updated.json");
+            lastUpdatedJson.put("last_updated", raw_response.getBigInteger("lastUpdated"));
+            File lastUpdatedFile = new File(Config.ITEMS_FOLDER + "last_updated.json");
+            fileWriter = new FileWriter(lastUpdatedFile.getPath());
+            fileWriter.write(
+                    lastUpdatedJson.toString(3)
+            );
+            fileWriter.flush();
+            fileWriter.close();
+            System.out.println("[BPU] LastUpdated has been updated");
         }catch (Exception ex){
             ex.printStackTrace();
         }

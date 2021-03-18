@@ -1,3 +1,60 @@
 {
-
+   "market": {
+      "npc": {
+         "buy": 0,
+         "sell": 0,
+         "name": "name_of_the_npc"
+      },
+      "in_bazaar": true,
+      "bazaar": {
+         "buy": 759.5212697878073,
+         "sell": 704.1787526784707
+      }
+   },
+   "recipes": {
+      "furnace": {
+         "quantity": -1,
+         "for": "ITEM_TO_BAKE"
+      },
+      "forge": {
+         "duration": 21600,
+         "quantity": -1,
+         "for": [
+            -1,
+            "ITEM"
+         ],
+         "hotm_level": 0
+      },
+      "craft": {
+         "slayer": {
+            "boss": "ZOMBIE_SLAYER",
+            "level": -1
+         },
+         "quantity": -1,
+         "is_slayer": true,
+         "for": [
+            128,
+            "ENCHANTED_CARROT",
+            32,
+            "GOLDEN_CARROT"
+         ]
+      }
+   },
+   "names": {
+      "ne": "Translation comming soon",
+      "ja": "Translation comming soon",
+      "en": "Item well named",
+      "it": "Translation comming soon",
+      "fr": "Translation comming soon",
+      "ge": "Translation comming soon",
+      "es": "Translation comming soon"
+   },
+   "family": {
+      "unit": "unit",
+      "ore": "ore",
+      "enchanted": "enchanted",
+      "over_enchanted": "bullshit",
+      "block": "block",
+      "mini-block": "bloc"
+   }
 }

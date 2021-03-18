@@ -1,5 +1,5 @@
 {
-   "lastUpdated": 1615331847321,
+   "lastUpdated": 1616024523900,
    "collections": {
       "FORAGING": {
          "name": "Foraging",
@@ -685,7 +685,7 @@
                   {
                      "tier": 11,
                      "amountRequired": 60000,
-                     "unlocks": ["Massive Fishing Bag Upgrade"]
+                     "unlocks": ["Unknown upgrade"]
                   }
                ],
                "name": "Raw Fish",
@@ -726,7 +726,7 @@
                   {
                      "tier": 7,
                      "amountRequired": 800,
-                     "unlocks": ["Greater Sack of Sacks Upgrade"]
+                     "unlocks": ["Unknown upgrade"]
                   }
                ],
                "name": "Clownfish",
@@ -1157,7 +1157,7 @@
                      "amountRequired": 50000,
                      "unlocks": [
                         "Mystery Spider Pet Recipe",
-                        "Giant Quiver Upgrade"
+                        "Unknown upgrade"
                      ]
                   }
                ],
@@ -2220,7 +2220,7 @@
                   {
                      "tier": 11,
                      "amountRequired": 100000,
-                     "unlocks": ["Massive Potion Bag Upgrade"]
+                     "unlocks": ["Unknown upgrade"]
                   },
                   {
                      "tier": 12,
@@ -2439,7 +2439,7 @@
                      "tier": 6,
                      "amountRequired": 15000,
                      "unlocks": [
-                        "Personal Bank Upgrade",
+                        "Unknown upgrade",
                         "Personal Bank Item Recipe"
                      ]
                   },
@@ -2600,7 +2600,7 @@
                   {
                      "tier": 16,
                      "amountRequired": 1400000,
-                     "unlocks": ["Preposterous Accessory Bag Upgrade"]
+                     "unlocks": ["Unknown upgrade"]
                   }
                ],
                "name": "Redstone",
@@ -2651,7 +2651,7 @@
                   {
                      "tier": 9,
                      "amountRequired": 50000,
-                     "unlocks": ["Enderchest Lv3 Upgrade"]
+                     "unlocks": ["Unknown upgrade"]
                   },
                   {
                      "tier": 10,
@@ -3303,4 +3303,5 @@
                      "unlocks": ["Night Crystal Recipe"]
                   },
                   {
- 
+                     "tier": 8,
+                     "amountRequired": 2500

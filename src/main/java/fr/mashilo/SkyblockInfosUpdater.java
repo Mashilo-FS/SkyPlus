@@ -7,8 +7,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class SkyblockInfosUpdater extends Thread {
-    private FileWriter fileWriterCollections;
-    private FileWriter fileWriterSkills;
 
     public SkyblockInfosUpdater(){
         System.out.println("[SIU] Thread created : " + this);
@@ -29,7 +27,7 @@ public class SkyblockInfosUpdater extends Thread {
 
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Une erreur est survenue");
+            System.out.println("[SIU] Une erreur est survenue");
         }
         System.out.println("[SIU] Thread terminated : " + this);
     }

@@ -2,30 +2,272 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="844dd22c-a6aa-4348-90c7-7d851780707e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/CustomEmbeds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyblockInfosUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/NamingConvention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/WebAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minions/minions.json" beforeDir="false" afterPath="$PROJECT_DIR$/minions/minions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyblockInfosUpdater.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyblockInfosUpdater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyblockInfosUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyblockInfosUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/NamingConvention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/NamingConvention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/collections.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/collections.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ANCIENT_CLAW.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ANCIENT_CLAW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BAZAAR_COOKIE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BAZAAR_COOKIE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLAZE_ROD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLAZE_ROD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLESSED_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLESSED_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLUE_SHARK_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLUE_SHARK_TOOTH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BOOSTER_COOKIE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BOOSTER_COOKIE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BROWN_MUSHROOM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BROWN_MUSHROOM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CACTUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CACTUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CARROT_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CARROT_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CARROT_ITEM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CARROT_ITEM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CATALYST.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CATALYST.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CLAY_BALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/CLAY_BALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COAL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COAL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COBBLESTONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COBBLESTONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COLOSSAL_EXP_BOTTLE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COLOSSAL_EXP_BOTTLE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COMPACTOR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/COMPACTOR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/DAEDALUS_STICK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/DAEDALUS_STICK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/DARK_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/DARK_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/DIAMOND.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/DIAMOND.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ECTOPLASM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ECTOPLASM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/EMERALD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/EMERALD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ACACIA_LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ACACIA_LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ANCIENT_CLAW.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ANCIENT_CLAW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BAKED_POTATO.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BAKED_POTATO.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BIRCH_LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BIRCH_LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BLAZE_POWDER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BLAZE_POWDER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BLAZE_ROD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BLAZE_ROD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BONE_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BONE_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BREAD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BREAD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BROWN_MUSHROOM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_BROWN_MUSHROOM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CACTUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CACTUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CACTUS_GREEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CACTUS_GREEN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CAKE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CAKE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_ON_A_STICK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_ON_A_STICK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_STICK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_STICK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CHARCOAL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CHARCOAL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CLAY_BALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CLAY_BALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CLOWNFISH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CLOWNFISH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COAL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COAL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COAL_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COAL_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COBBLESTONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COBBLESTONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COCOA.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COCOA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKED_FISH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKED_FISH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKED_MUTTON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKED_MUTTON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKED_SALMON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKED_SALMON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKIE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_COOKIE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_DARK_OAK_LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_DARK_OAK_LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_DIAMOND.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_DIAMOND.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_DIAMOND_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_DIAMOND_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EGG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EGG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EMERALD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EMERALD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EMERALD_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EMERALD_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ENDER_PEARL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ENDER_PEARL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ENDSTONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ENDSTONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EYE_OF_ENDER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_EYE_OF_ENDER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FEATHER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FEATHER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FERMENTED_SPIDER_EYE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FERMENTED_SPIDER_EYE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FIREWORK_ROCKET.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FIREWORK_ROCKET.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FLINT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_FLINT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GHAST_TEAR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GHAST_TEAR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GLISTERING_MELON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GLISTERING_MELON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GLOWSTONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GLOWSTONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GLOWSTONE_DUST.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GLOWSTONE_DUST.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GOLD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GOLD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GOLDEN_CARROT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GOLDEN_CARROT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GOLD_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GOLD_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GRILLED_PORK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GRILLED_PORK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GUNPOWDER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_GUNPOWDER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_HAY_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_HAY_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_HUGE_MUSHROOM_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_HUGE_MUSHROOM_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_HUGE_MUSHROOM_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_HUGE_MUSHROOM_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ICE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ICE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_INK_SACK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_INK_SACK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_IRON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_IRON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_IRON_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_IRON_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_JUNGLE_LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_JUNGLE_LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LAPIS_LAZULI.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LAPIS_LAZULI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LAPIS_LAZULI_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LAPIS_LAZULI_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LAVA_BUCKET.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LAVA_BUCKET.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LEATHER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_LEATHER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MAGMA_CREAM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MAGMA_CREAM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MELON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MELON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MELON_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MELON_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MITHRIL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MITHRIL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MUTTON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_MUTTON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_NETHER_STALK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_NETHER_STALK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_OAK_LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_OAK_LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_OBSIDIAN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_OBSIDIAN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PACKED_ICE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PACKED_ICE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PAPER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PAPER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PORK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PORK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_POTATO.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_POTATO.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PRISMARINE_CRYSTALS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PRISMARINE_CRYSTALS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PRISMARINE_SHARD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PRISMARINE_SHARD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PUFFERFISH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PUFFERFISH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PUMPKIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_PUMPKIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_QUARTZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_QUARTZ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_QUARTZ_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_QUARTZ_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RABBIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RABBIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RABBIT_FOOT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RABBIT_FOOT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RABBIT_HIDE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RABBIT_HIDE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_BEEF.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_BEEF.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_CHICKEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_CHICKEN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_FISH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_FISH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_SALMON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RAW_SALMON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_REDSTONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_REDSTONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_REDSTONE_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_REDSTONE_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_REDSTONE_LAMP.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_REDSTONE_LAMP.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RED_MUSHROOM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_RED_MUSHROOM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ROTTEN_FLESH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_ROTTEN_FLESH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SAND.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SAND.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SEEDS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SEEDS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SHARK_FIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SHARK_FIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SLIME_BALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SLIME_BALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SLIME_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SLIME_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SNOW_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SNOW_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SPIDER_EYE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SPIDER_EYE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SPONGE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SPONGE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SPRUCE_LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SPRUCE_LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_STRING.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_STRING.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SUGAR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SUGAR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SUGAR_CANE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_SUGAR_CANE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_TITANIUM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_TITANIUM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_WATER_LILY.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_WATER_LILY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_WET_SPONGE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_WET_SPONGE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENDER_PEARL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENDER_PEARL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENDER_STONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENDER_STONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/EXP_BOTTLE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/EXP_BOTTLE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FEATHER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FEATHER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FISH_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FISH_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FLINT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FLINT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FOUL_FLESH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FOUL_FLESH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FUMING_POTATO_BOOK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/FUMING_POTATO_BOOK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GHAST_TEAR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GHAST_TEAR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GLOWSTONE_DUST.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GLOWSTONE_DUST.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GOLDEN_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GOLDEN_TOOTH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GOLD_INGOT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GOLD_INGOT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GRAND_EXP_BOTTLE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GRAND_EXP_BOTTLE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GRAVEL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GRAVEL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GREAT_WHITE_SHARK_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GREAT_WHITE_SHARK_TOOTH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GREEN_CANDY.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GREEN_CANDY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GREEN_GIFT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GREEN_GIFT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GRIFFIN_FEATHER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/GRIFFIN_FEATHER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HAMSTER_WHEEL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HAMSTER_WHEEL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HAY_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HAY_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HOLY_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HOLY_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HOT_POTATO_BOOK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HOT_POTATO_BOOK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HUGE_MUSHROOM_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HUGE_MUSHROOM_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HUGE_MUSHROOM_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HUGE_MUSHROOM_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HYPER_CATALYST.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/HYPER_CATALYST.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ICE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ICE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ICE_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ICE_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/INK_SACK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/INK_SACK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/INK_SACK_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/INK_SACK_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/INK_SACK_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/INK_SACK_4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/IRON_INGOT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/IRON_INGOT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JACOBS_TICKET.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JACOBS_TICKET.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_BLUE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_BLUE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_GOLDEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_GOLDEN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_GREEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_GREEN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_PURPLE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/JERRY_BOX_PURPLE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LEATHER.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LEATHER.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LIGHT_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LIGHT_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_2_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_2_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/LOG_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MAGMA_CREAM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MAGMA_CREAM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MELON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MELON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MINNOW_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MINNOW_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MITHRIL_ORE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MITHRIL_ORE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MUTANT_NETHER_STALK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MUTANT_NETHER_STALK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MUTTON.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/MUTTON.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/NETHERRACK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/NETHERRACK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/NETHER_STALK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/NETHER_STALK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/NURSE_SHARK_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/NURSE_SHARK_TOOTH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/OBSIDIAN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/OBSIDIAN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/OLD_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/OLD_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PACKED_ICE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PACKED_ICE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/POLISHED_PUMPKIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/POLISHED_PUMPKIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PORK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PORK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/POTATO_ITEM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/POTATO_ITEM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PRISMARINE_CRYSTALS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PRISMARINE_CRYSTALS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PRISMARINE_SHARD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PRISMARINE_SHARD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PROTECTOR_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PROTECTOR_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PUMPKIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PUMPKIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PUMPKIN_GUTS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PUMPKIN_GUTS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PURPLE_CANDY.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/PURPLE_CANDY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/QUARTZ.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/QUARTZ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RABBIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RABBIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RABBIT_FOOT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RABBIT_FOOT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RABBIT_HIDE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RABBIT_HIDE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_BEEF.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_BEEF.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_CHICKEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_CHICKEN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RAW_FISH_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RECOMBOBULATOR_3000.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RECOMBOBULATOR_3000.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REDSTONE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REDSTONE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RED_GIFT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RED_GIFT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RED_MUSHROOM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/RED_MUSHROOM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_DIAMOND.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_DIAMOND.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_MINERAL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_MINERAL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_MITHRIL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_MITHRIL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_TITANIUM.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REFINED_TITANIUM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REVENANT_FLESH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REVENANT_FLESH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REVENANT_VISCERA.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/REVENANT_VISCERA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ROTTEN_FLESH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ROTTEN_FLESH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SAND.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SAND.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SEEDS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SEEDS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SHARK_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SHARK_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SHARK_FIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SHARK_FIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SLIME_BALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SLIME_BALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SNOW_BALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SNOW_BALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SNOW_BLOCK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SNOW_BLOCK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SOUL_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SOUL_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPIDER_EYE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPIDER_EYE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPIKED_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPIKED_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPONGE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPONGE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPOOKY_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPOOKY_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPOOKY_SHARD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SPOOKY_SHARD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STARFALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STARFALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STOCK_OF_STONKS.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STOCK_OF_STONKS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STRING.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STRING.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STRONG_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/STRONG_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUGAR_CANE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUGAR_CANE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SULPHUR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SULPHUR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUMMONING_EYE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUMMONING_EYE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUPERIOR_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUPERIOR_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUPER_COMPACTOR_3000.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUPER_COMPACTOR_3000.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUPER_EGG.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/SUPER_EGG.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TARANTULA_SILK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TARANTULA_SILK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TARANTULA_WEB.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TARANTULA_WEB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TIGER_SHARK_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TIGER_SHARK_TOOTH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TIGHTLY_TIED_HAY_BALE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TIGHTLY_TIED_HAY_BALE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TITANIC_EXP_BOTTLE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TITANIC_EXP_BOTTLE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TITANIUM_ORE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/TITANIUM_ORE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/UNSTABLE_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/UNSTABLE_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WATER_LILY.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WATER_LILY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WEREWOLF_SKIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WEREWOLF_SKIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WHALE_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WHALE_BAIT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WHEAT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WHEAT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WHITE_GIFT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WHITE_GIFT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WISE_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WISE_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WOLF_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WOLF_TOOTH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/YOUNG_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/YOUNG_FRAGMENT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/items - Copie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/skills.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +388,8 @@
       <workItem from="1615155818764" duration="15288000" />
       <workItem from="1615373218276" duration="9488000" />
       <workItem from="1615388279859" duration="6802000" />
+      <workItem from="1615741966704" duration="1506000" />
+      <workItem from="1616073831729" duration="4934000" />
     </task>
     <servers />
   </component>
@@ -173,25 +417,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="538" y="32" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615065071211" />
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1615393058616">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1616078835592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615393058616" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
     <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601023" />
-    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1615393058616">
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1616078835592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615393058616" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
     <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601023" />
-    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1615393058616">
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1616078835592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615393058616" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
     <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601022" />
-    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1615393058616">
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1616078835592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615393058616" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
     <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601023" />
     <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1615359478157">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -229,14 +473,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="187" y="162" width="1391" height="715" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615379378870" />
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1615388297283">
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1616074457407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615388297283" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616074457407" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1614782474087" />
     <state x="1103" y="268" key="extract.method.dialog" timestamp="1614120907004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1103" y="268" key="extract.method.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614120907004" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1616076600427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616076600427" />
   </component>
 </project>
