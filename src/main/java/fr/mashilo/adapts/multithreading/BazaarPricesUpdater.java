@@ -4,19 +4,16 @@ import fr.mashilo.Config;
 import fr.mashilo.adapts.NamingConvention;
 import fr.mashilo.adapts.WebAPI;
 import fr.mashilo.adapts.JSONAdapter;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.nio.file.NoSuchFileException;
 import java.util.Iterator;
 
 public class BazaarPricesUpdater extends Thread {
     private FileWriter fileWriter;
 
     public BazaarPricesUpdater(){
-        System.out.println("[BPU] Thread created : " + this);
         setName("BazaarPricesUpdater - Thread");
         start();
     }
@@ -66,11 +63,8 @@ public class BazaarPricesUpdater extends Thread {
             );
             fileWriter.flush();
             fileWriter.close();
-            System.out.println("[BPU] LastUpdated has been updated");
         }catch (Exception ex){
             ex.printStackTrace();
         }
-
-        System.out.println("[BPU] Thread terminated : " + this);
     }
 }

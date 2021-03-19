@@ -1,6 +1,7 @@
 package fr.mashilo;
 
 import fr.mashilo.adapts.JSONAdapter;
+import fr.mashilo.adapts.NamingConvention;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -8,44 +9,33 @@ import java.io.IOException;
 public class Item {
 
     private String id;
-
     private JSONObject names;
     private JSONObject family;
-
     private JSONObject recipes;
     private JSONObject market;
 
-    private JSONObject collection;
-
     public Item(String name) throws IOException {
-        this.id = name;
-        this.names = JSONAdapter.JSONReader(Config.ITEMS_FOLDER).getJSONObject(name).getJSONObject("names");
-        this.family = JSONAdapter.JSONReader(Config.ITEMS_FOLDER).getJSONObject(name).getJSONObject("family");
-        this.recipes = JSONAdapter.JSONReader(Config.ITEMS_FOLDER).getJSONObject(name).getJSONObject("recipes");
-        this.market = JSONAdapter.JSONReader(Config.ITEMS_FOLDER).getJSONObject(name).getJSONObject("market");
-        this.collection = JSONAdapter.JSONReader(Config.ITEMS_FOLDER).getJSONObject(name).getJSONObject("collection");
+        JSONObject itemFile = JSONAdapter.JSONReader(Config.ITEMS_FOLDER + new NamingConvention().convert(name) + ".json");
+        this.id = new NamingConvention().convert(name);
+        this.names = itemFile.getJSONObject("names");
+        this.family = itemFile.getJSONObject("family");
+        this.recipes = itemFile.getJSONObject("recipes");
+        this.market = itemFile.getJSONObject("market");
     }
 
-    public String getID(){
+    public synchronized String getID(){
         return this.id;
     }
-    public JSONObject getNames(){
+    public synchronized JSONObject getNames(){
         return this.names;
     }
-    public JSONObject getFamily(){
+    public synchronized JSONObject getFamily(){
         return this.family;
     }
-    public JSONObject getRecipes(){
+    public synchronized JSONObject getRecipes(){
         return this.recipes;
     }
-    public JSONObject getMarket(){
+    public synchronized JSONObject getMarket(){
         return this.market;
-    }
-    public JSONObject getCollection(){
-        return this.collection;
-    }
-
-    public void setMarket(JSONObject market) {
-        this.market = market;
     }
 }

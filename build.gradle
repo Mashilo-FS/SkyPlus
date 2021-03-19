@@ -5,7 +5,7 @@ plugins {
 group 'fr.mashilo'
 version '1.0'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 compileJava.options.encoding = 'UTF-8'
 
@@ -16,13 +16,14 @@ tasks.withType(JavaCompile) {
 repositories {
     mavenCentral()
     jcenter()
+    maven { url 'https://jitpack.io/' }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile 'net.dv8tion:JDA:4.2.0_228'
-    implementation 'com.google.code.gson:gson:2.8.6'
+    compile 'net.dv8tion:JDA:4.2.0_242'
     implementation group: 'org.json', name: 'json', version: '20160810'
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.0'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+    compile 'com.github.Querz:NBT:5.2'
 }

@@ -1,5 +1,6 @@
-package fr.mashilo;
+package fr.mashilo.adapts.multithreading;
 
+import fr.mashilo.Config;
 import fr.mashilo.adapts.WebAPI;
 import org.json.JSONObject;
 
@@ -9,11 +10,10 @@ import java.io.IOException;
 public class SkyblockInfosUpdater extends Thread {
 
     public SkyblockInfosUpdater(){
-        System.out.println("[SIU] Thread created : " + this);
         setName("SkyblockInfosUpdater - Thread");
         start();
     }
-    public void run() {
+    public synchronized void run() {
         try{
             String collections = WebAPI.get(Config.API_COLLECTIONS_URL + Config.APIKEY).toString();
             String skills = WebAPI.get(Config.API_SKILLS_URL + Config.APIKEY).toString();
@@ -29,6 +29,5 @@ public class SkyblockInfosUpdater extends Thread {
             e.printStackTrace();
             System.out.println("[SIU] Une erreur est survenue");
         }
-        System.out.println("[SIU] Thread terminated : " + this);
     }
 }

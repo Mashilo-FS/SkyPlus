@@ -1,18 +1,13 @@
 package fr.mashilo;
 
-import fr.mashilo.adapts.JSONAdapter;
-import fr.mashilo.adapts.multithreading.BazaarPricesUpdater;
+import fr.mashilo.adapts.TimeAdapter;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import org.json.JSONObject;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
+import java.sql.Time;
 
 public class Listener extends ListenerAdapter implements Config{
-    private FileWriter fileWriter;
 
     public void onMessageReceived(MessageReceivedEvent e){
         if (!e.getAuthor().isBot()) {
@@ -24,36 +19,22 @@ public class Listener extends ListenerAdapter implements Config{
                     e.getChannel().sendMessage("Reste tranquille. Je suis suppérieur à toi, tu ne sais pas m'utiliser").queue();
                 } else{
                     switch (args[1]) {
-                        case "test":
+                        case "timeConvert":
                             if (args.length <= 2){
                                 e.getChannel().sendMessage("Que veux-tu tester ?").queue();
                             } else {
-                                switch (args[2]) {
-                                    case "japanese":
-                                        e.getChannel().sendMessage("私は何かをテストします").queue();
-                                        break;
-
-                                    default:
-                                        e.getChannel().sendMessage("Je n'ai pas compris").queue();
-                                        break;
-                                }
+                                e.getChannel().sendMessage("Cela vaux " + new TimeAdapter().convert(args[2]) + " secondes. Selon moi xD").queue();
                             }
                             break;
 
-                        case "bpu":
-                            BazaarPricesUpdater BPU = new BazaarPricesUpdater();
-
-                            break;
-
-                        case "apiTest":
-                            try{
-                                e.getChannel().sendMessage("Début de la procédure").queue();
-                                JSONAdapter.JSONWriter(Config.ITEMS_FOLDER, "", "", 0, "");
-                                e.getChannel().sendMessage("Va regarder tes fichiers frero").queue();
+                        case "test":
+                            try {
+                                Minion minion = new Minion("CHICKEN");
+                                e.getChannel().sendMessage(minion.item_summary(2, new TimeAdapter().convert("5d")).toString()).queue();
                             } catch (IOException ex) {
-                                e.getChannel().sendMessage("Une erreur est survenue").queue();
                                 ex.printStackTrace();
                             }
+
                             break;
 
                         case "minion":
@@ -63,22 +44,17 @@ public class Listener extends ListenerAdapter implements Config{
                                     Minion minion = new Minion(args[2].toUpperCase());
                                     CustomEmbeds customEmbeds = new CustomEmbeds();
                                     if (args.length <= 3){
-
                                         try{
-                                            e.getChannel().sendMessage(customEmbeds.embedMinion(minion, "1").build()).queue();
+                                            e.getChannel().sendMessage(customEmbeds.embedMinion(minion, 1).build()).queue();
                                         }catch (Exception execption){
                                             System.out.println("Un probleme est survenu (Commande minionInfo 0)");
                                         }
-
                                     } else {
-
                                         try{
-                                            e.getChannel().sendMessage(minion.getFolder()).queue();
-                                            e.getChannel().sendMessage(customEmbeds.embedMinion(minion, args[3]).build()).queue();
+                                            e.getChannel().sendMessage(customEmbeds.embedMinion(minion, Integer.parseInt(args[3])).build()).queue();
                                         }catch (Exception execption){
                                             System.out.println("Un probleme est survenu (Commande minionTier 1)");
                                         }
-
                                     }
 
                                 } catch (IOException ex) {
@@ -98,8 +74,8 @@ public class Listener extends ListenerAdapter implements Config{
                                 }
                             }
                             break;
-                        case "minionParse":
-                            e.getChannel().sendMessage("Commande déintégrée").queue();
+                        case "emojiTest":
+                            e.getChannel().sendMessage("\uD83D\uDC36").queue();
                             break;
 
                         default:

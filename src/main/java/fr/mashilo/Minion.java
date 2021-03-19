@@ -5,10 +5,11 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.Iterator;
 
 import fr.mashilo.adapts.JSONAdapter;
 
-public class Minion{
+public class Minion {
 
     private String name;
     private String folder;
@@ -17,74 +18,81 @@ public class Minion{
     private JSONArray quantity;
     private JSONArray tiers;
 
-    private float cooldown;
-    private int slots;
-
-    private String recipeType;
-    private String centeredItem;
-    private String[] items;
-    private int itemsQuantityPerSlot;
-
     public Minion(String name) throws IOException {
+        JSONObject minionFile = JSONAdapter.JSONReader(Config.MINIONS_FOLDER + new NamingConvention().convert(name) + ".json");
         this.name = name;
-        this.folder = getMinionFolder(name);
-        this.upgrades_compatible = getMinionUpgrades_compatibles(name);
-        this.generated_items = getMinionGenerated_items(name);
-        this.quantity = getMinionQuantity(name);
-        this.tiers = getMinionTiers(name);
+        this.folder = minionFile.getString("folder");
+        this.upgrades_compatible = minionFile.getJSONArray("upgrades_compatible");
+        this.generated_items = minionFile.getJSONArray("generated_items");
+        this.quantity = minionFile.getJSONArray("quantity");
+        this.tiers = minionFile.getJSONArray("tiers");
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
-    public String getFolder(){
+
+    public String getFolder() {
         return this.folder;
     }
-    public String getUpgrades_compatible(){
+
+    public String getUpgrades_compatible() {
         StringBuilder result = new StringBuilder();
-        for (int i = 0; i < this.upgrades_compatible.length(); i++){
+        for (int i = 0; i < this.upgrades_compatible.length(); i++) {
             result.append(this.upgrades_compatible.get(i)).append(" ");
         }
         return result.toString();
     }
-    public JSONArray getGenerated_items(){
+
+    public JSONArray getGenerated_items() {
         return this.generated_items;
     }
-    public JSONArray getQuantity(){
+
+    public JSONArray getQuantity() {
         return this.quantity;
     }
-    public JSONArray getTiers(){
+
+    public JSONArray getTiers() {
         return this.tiers;
     }
-    public JSONObject getTier(int tier){
-        return getTiers().getJSONObject(tier-1);
-    }
-    public long getCooldown(int tier){
-        return getTier(tier).getLong("cooldown");
-    }
-    public int getSlots(int tier){
-        return getTier(tier).getInt("slots");
+
+    public JSONObject item_summary(int tier, int time) throws IOException {
+        /*
+        Best seller determined and selected for each ressources generated
+         */
+
+        double cooldown = getTiers().getJSONObject(tier - 1).getDouble("cooldown");
+        JSONArray drops = getGenerated_items();
+        JSONObject summary = new JSONObject();
+
+        for (Object item : drops) {
+            summary.put((String) item, 0);
+        }
+
+        for (Object item: drops) {
+            JSONObject itemMarket = JSONAdapter.JSONReader(Config.ITEMS_FOLDER + new NamingConvention().convert((String) item) + ".json")
+                    .getJSONObject("market");
+            double betterPrice = 0;
+            String betterSeller = "";
+            if (itemMarket.getBoolean("in_bazaar")){
+                betterPrice = Math.max(
+                        itemMarket.getJSONObject("npc").getDouble("sell"),
+                        itemMarket.getJSONObject("bazaar").getDouble("sell")
+                );
+                betterSeller = itemMarket.getJSONObject("bazaar").getDouble("sell") > itemMarket.getJSONObject("npc").getDouble("sell")
+                        ? "bazaar"
+                        : "npc";
+            } else betterPrice = itemMarket.getJSONObject("npc").getDouble("sell"); betterSeller = "npc";
+
+        }
+        return new JSONObject();
     }
 
-    public static String getMinionFolder(String minionName) throws IOException {
-        System.out.println(Config.MINIONS_FOLDER + new NamingConvention().convert(minionName));
-        return JSONAdapter.JSONReader(Config.MINIONS_FOLDER + new NamingConvention().convert(minionName) + ".json")
-                .getString("folder");
+    public JSONObject item_summary(int tier, int time, String seller) throws IOException{
+        /*
+        Force a seller as sell method
+         */
+        return  new JSONObject();
     }
-    public static JSONArray getMinionUpgrades_compatibles(String minionName) throws IOException {
-        return JSONAdapter.JSONReader(Config.MINIONS_FOLDER + new NamingConvention().convert(minionName))
-                .getJSONArray("upgrades_compatible");
-    }
-    public static JSONArray getMinionGenerated_items(String minionName) throws IOException {
-        return JSONAdapter.JSONReader(Config.MINIONS_FOLDER + new NamingConvention().convert(minionName))
-                .getJSONArray("generated_items");
-    }
-    public static JSONArray getMinionQuantity(String minionName) throws IOException {
-        return JSONAdapter.JSONReader(Config.MINIONS_FOLDER + new NamingConvention().convert(minionName))
-                .getJSONArray("quantity");
-    }
-    public static JSONArray getMinionTiers(String minionName) throws IOException {
-        return JSONAdapter.JSONReader(Config.MINIONS_FOLDER + new NamingConvention().convert(minionName))
-                .getJSONArray("tiers");
-    }
+
 }

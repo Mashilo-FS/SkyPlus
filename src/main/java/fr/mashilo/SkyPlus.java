@@ -1,32 +1,39 @@
 package fr.mashilo;
 
 import fr.mashilo.adapts.multithreading.BazaarPricesUpdater;
+import fr.mashilo.adapts.multithreading.SkyblockInfosUpdater;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
+import net.dv8tion.jda.api.sharding.ShardManager;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
 public class SkyPlus{
 
     public static void main(String[] args) throws Exception {
 
-        DefaultShardManagerBuilder client = DefaultShardManagerBuilder.createDefault(Config.TOKEN);
+        ShardManager client = DefaultShardManagerBuilder.createDefault(Config.TOKEN)
+                .setShardsTotal(1)
 
-        client.disableCache(CacheFlag.ACTIVITY);
-        client.disableIntents(GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_MESSAGE_TYPING);
+                .setAutoReconnect(true)
+                .setBulkDeleteSplittingEnabled(false)
 
-        client.addEventListeners(new Listener());
+                .disableCache(CacheFlag.ACTIVITY)
+                .disableIntents(GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_MESSAGE_TYPING)
 
-        client.setStatus(OnlineStatus.ONLINE);
-        client.setActivity(Activity.watching("Mashilo qui me programme :)"));
+                .addEventListeners(new Listener())
 
-        client.build();
+                .setStatus(OnlineStatus.ONLINE)
+                .setActivity(Activity.playing("\uD83D\uDC36 Doge to the moon \uD83C\uDF11                       Need help? Do /sky help                           I need money. Do /sky donate"))
 
-        HypixelRateLimiter();
+                .build();
+
+        HypixelAutoUpdater();
+
     }
 
-    public static synchronized void HypixelRateLimiter() throws InterruptedException {
+    public static synchronized void HypixelAutoUpdater() throws InterruptedException {
         Thread thread = new Thread();
         thread.setPriority(2);
         thread.start();

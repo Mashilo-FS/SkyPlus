@@ -2,21 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="844dd22c-a6aa-4348-90c7-7d851780707e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/TimeAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyblockInfosUpdater.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyblockInfosUpdater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/CustomEmbeds.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/CustomEmbeds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Minion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/Minion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/SkyblockInfosUpdater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/JSONAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/JSONAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/NamingConvention.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/NamingConvention.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/WebAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/WebAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyblockInfosUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyblockInfosUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/NamingConvention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/NamingConvention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/CustomEmbeds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/CustomEmbeds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/Minion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/SkyblockInfosUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/multithreading/SkyblockInfosUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/JSONAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/JSONAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/adapts/multithreading/BazaarPricesUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/collections.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/collections.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ANCIENT_CLAW.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ANCIENT_CLAW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BAZAAR_COOKIE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BAZAAR_COOKIE.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLAZE_ROD.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLAZE_ROD.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLESSED_BAIT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLESSED_BAIT.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLUE_SHARK_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/BLUE_SHARK_TOOTH.json" afterDir="false" />
@@ -51,7 +68,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CACTUS_GREEN.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CACTUS_GREEN.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CAKE.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CAKE.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_ON_A_STICK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_ON_A_STICK.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_STICK.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CARROT_STICK.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CHARCOAL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CHARCOAL.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CLAY_BALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/ENCHANTED_CLAY_BALL.json" afterDir="false" />
@@ -266,7 +282,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WISE_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WISE_FRAGMENT.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WOLF_TOOTH.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/WOLF_TOOTH.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/YOUNG_FRAGMENT.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/YOUNG_FRAGMENT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/items - Copie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/last_updated.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/items/last_updated.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/mashilo/assets/skills.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +304,28 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyPlus" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyPlus" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SkyPlus" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -331,20 +368,23 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="fr.mashilo" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="fr.mashilo" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.mashilo.adapts.multithreading" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lucas\Desktop\Programmation\SkyPlus\src\main\java\fr\mashilo" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.mashilo" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SkyPlus">
     <configuration name="SkyPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -353,7 +393,7 @@
       <option name="VM_PARAMETERS" value="-Xms128m -Xmx2048m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.mashilo.*" />
+          <option name="PATTERN" value="fr.mashilo.adapts.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,9 +401,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SkyPlus [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SkyPlus" />
+        <item itemvalue="Gradle.SkyPlus [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +449,7 @@
       <workItem from="1615373218276" duration="9488000" />
       <workItem from="1615388279859" duration="6802000" />
       <workItem from="1615741966704" duration="1506000" />
-      <workItem from="1616073831729" duration="4934000" />
+      <workItem from="1616073831729" duration="31183000" />
     </task>
     <servers />
   </component>
@@ -401,41 +461,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="That's a lot of new stuff here" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615375998125">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616088448057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615375998125" />
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1614080762758">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616088448057" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1616099794610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614080762758" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616099794610" />
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1616099938353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616099938353" />
     <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615140595337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615140595337" />
+    <state x="751" y="371" width="481" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1616099950344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="371" width="481" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616099950344" />
     <state x="538" y="32" key="CommitChangelistDialog2" timestamp="1615065071211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="538" y="32" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615065071211" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1616078835592">
+    <state width="1877" height="368" key="GridCell.Tab.0.bottom" timestamp="1616170633309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
+    <state width="1877" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616170633309" />
     <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601023" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1616078835592">
+    <state width="1877" height="368" key="GridCell.Tab.0.center" timestamp="1616170633309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
+    <state width="1877" height="368" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616170633309" />
     <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601023" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1616078835592">
+    <state width="1877" height="368" key="GridCell.Tab.0.left" timestamp="1616170633309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
+    <state width="1877" height="368" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616170633309" />
     <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601022" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1616078835592">
+    <state width="1877" height="368" key="GridCell.Tab.0.right" timestamp="1616170633309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078835592" />
+    <state width="1877" height="368" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616170633309" />
     <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614117601023" />
     <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1615359478157">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -469,10 +537,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="328" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615359478158" />
-    <state x="187" y="162" width="1391" height="715" key="SettingsEditor" timestamp="1615379378870">
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1616170579004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="187" y="162" width="1391" height="715" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615379378870" />
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616170579004" />
+    <state x="187" y="162" width="1391" height="715" key="SettingsEditor" timestamp="1616170544637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="187" y="162" width="1391" height="715" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616170544637" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1616074457407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -486,5 +558,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616076600427" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616100892507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616100892507" />
   </component>
 </project>
