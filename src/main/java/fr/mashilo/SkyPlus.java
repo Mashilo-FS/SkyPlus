@@ -9,6 +9,8 @@ import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
+// Petit changement ici pour montrer le git diff
+
 public class SkyPlus{
 
     public static void main(String[] args) throws Exception {

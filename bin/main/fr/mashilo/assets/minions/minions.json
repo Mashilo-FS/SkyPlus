@@ -1,0 +1,5928 @@
+{
+   "ACACIA": {
+      "name" : "Acacia Minion",
+      "folder": "/assets/minions/Acacia",
+      "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["ACACIA WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ACACIA WOOD"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "BIRCH": {
+      "name" : "BIRCH",
+      "folder": "/assets/minions/Birch",
+      "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["BIRCH WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["BIRCH WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BIRCH WOOD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BIRCH WOOD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["BIRCH WOOD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BIRCH WOOD"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "BLAZE": {
+      "name" : "BLAZE",
+      "folder": "/assets/minions/Blaze",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["BLAZE ROD"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 33,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["BLAZE ROD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BLAZE ROD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 31,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BLAZE ROD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 31,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["BLAZE ROD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 28.5,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE POWDER"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 28.5,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE POWDER"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE POWDER"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE POWDER"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE POWDER"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE POWDER"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 16.5,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BLAZE ROD"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "CACTUS": {
+      "name" : "CACTUS",
+      "folder": "/assets/minions/Cactus",
+      "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["CACTUS"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 27,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["CACTUS"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["CACTUS"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["CACTUS"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS GREEN"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS GREEN"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS GREEN"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS GREEN"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS GREEN"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS GREEN"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CACTUS"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "CARROT": {
+      "name" : "CARROT",
+      "folder": "/assets/minions/Carrot",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["CARROT"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 20,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["CARROT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["CARROT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["CARROT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CARROT"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CARROT"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CARROT"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CARROT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CARROT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CARROT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLDEN CARROT"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLDEN CARROT"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "CAVE_SPIDER": {
+      "name" : "CAVE_SPIDER",
+      "folder": "/assets/minions/Cave Spider",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["SPIDER EYE", "STRING"],
+      "quantity": [1, 0.5],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 2,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["SPIDER EYE"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["SPIDER EYE"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["SPIDER EYE"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["SPIDER EYE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPIDER EYE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPIDER EYE"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPIDER EYE"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPIDER EYE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPIDER EYE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPIDER EYE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FERMENTED SPIDER EYE"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "CHICKEN": {
+      "name" : "CHICKEN",
+      "folder": "/assets/minions/Chicken",
+      "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "ENCHANTED EGG", "FLYCATCHER"],
+      "generated_items": ["RAW CHICKEN", "FEATHER"],
+      "quantity": [1, 1],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 2,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["RAW CHICKEN"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 5,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW CHICKEN"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 5,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW CHICKEN"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW CHICKEN"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW CHICKEN"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "CLAY": {
+      "name" : "CLAY",
+      "folder": "/assets/minions/Clay",
+      "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["CLAY"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 32,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["CLAY"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 32,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["CLAY"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["CLAY"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["CLAY"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 27.5,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 27.5,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED CLAY"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "COAL": {
+      "name" : "COAL",
+      "folder": "/assets/minions/Coal",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["COAL"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 15,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["COAL"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["COAL"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["COAL"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["COAL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 7,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COAL BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 6,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED COAL BLOCK",
+                  "quantity": 16
+               }
+            }
+         }
+      ]
+   },
+   "COBBLESTONE": {
+      "name" : "COBBLESTONE",
+      "folder": "/assets/minions/Cobblestone",
+      "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["COBBLESTONE"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 14,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["COBBLESTONE"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["COBBLESTONE"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["COBBLESTONE"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["COBBLESTONE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 7,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COBBLESTONE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 6,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED COBBLESTONE",
+                  "quantity": 1_024
+               }
+            }
+         }
+      ]
+   },
+   "COCOA_BEANS": {
+      "name" : "COCOA_BEANS",
+      "folder": "/assets/minions/Cocoa Beans",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["COCOA BEANS"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 27,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["COCOA BEANS"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["COCOA BEANS"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["COCOA BEANS"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["COCOA BEANS"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COCOA BEANS"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COCOA BEANS"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COCOA BEANS"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COCOA BEANS"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COCOA BEANS"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COCOA BEANS"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COOKIE"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+
+   },
+   "COW": {
+      "name" : "COW",
+      "folder": "/assets/minions/Cow",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["RAW BEEF", "LEATHER"],
+      "quantity": [1, 1],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["RAW BEEF"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW BEEF"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW BEEF"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW BEEF"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW BEEF"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW BEEF"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW BEEF"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW BEEF"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW BEEF"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW BEEF"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LEATHER"],
+               "quantity_per_slot": 32
+            }
+         }
+      ]
+   },
+   "CREEPER": {
+      "name" : "CREEPER",
+      "folder": "/assets/minions/Creeper",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["GUNPOWDER"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 27,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["GUNPOWDER"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GUNPOWDER"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GUNPOWDER"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["GUNPOWDER"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GUNPOWDER"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GUNPOWDER"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GUNPOWDER"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GUNPOWDER"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GUNPOWDER"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GUNPOWDER"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FIREWORK ROCKET"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "DARK_OAK": {
+      "name" : "DARK_OAK",
+      "folder": "/assets/minions/Dark Oak",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["DARK OAK WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["DARK OAK WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["DARK OAK WOOD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["DARK OAK WOOD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["DARK OAK WOOD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DARK OAK WOOD"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "DIAMOND": {
+      "name" : "DIAMOND",
+      "folder": "/assets/minions/Diamond",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["DIAMOND"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 29,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["DIAMOND"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 29,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["DIAMOND"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["DIAMOND"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["DIAMOND"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DIAMOND BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED DIAMOND BLOCK",
+                  "quantity": 16
+               }
+            }
+         }
+      ]
+   },
+   "EMERALD": {
+      "name" : "EMERALD",
+      "folder": "/assets/minions/Emerald",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["EMERALD"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 28,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["EMERALD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["EMERALD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["EMERALD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["EMERALD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EMERALD BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED EMERALD BLOCK",
+                  "quantity": 16
+               }
+            }
+         }
+      ]
+   },
+   "END_STONE": {
+      "name" : "END_STONE",
+      "folder": "/assets/minions/End Stone",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["END STONE"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["END STONE"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["END STONE"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["END STONE"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["END STONE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED END STONE"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "ENDERMAN": {
+      "name" : "ENDERMAN",
+      "folder": "/assets/minions/Enderman",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["ENDER PEARL"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 32,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["ENDER PEARL"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 32,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENDER PEARL"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ENDER PEARL"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ENDER PEARL"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ENDER PEARL"],
+               "quantity_per_slot": 6
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ENDER PEARL"],
+               "quantity_per_slot": 12
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EYE OF ENDER"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EYE OF ENDER"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EYE OF ENDER"],
+               "quantity_per_slot": 6
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EYE OF ENDER"],
+               "quantity_per_slot": 12
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED EYE OF ENDER"],
+               "quantity_per_slot": 24
+            }
+         }
+      ]
+   },
+   "FISHING": {
+      "name" : "FISHING",
+      "folder": "/assets/minions/Fishing",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["RAW FISH", "RAW SALMON", "PUFFERFISH", "CLOWNFISH", "PRISMARINE CRYSTALS", "PRISMARINE SHARD", "SPONGE"],
+      "quantity": [1, 0.5, 0.24, 0.08, 0.06, 0.06, 0.06],
+      "tiers": [
+         {
+            "cooldown": 78,
+            "slots" : 10,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["RAW FISH"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 75,
+            "slots" : 10,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW FISH"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 72,
+            "slots" : 10,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW FISH"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 72,
+            "slots" : 11,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW FISH"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 68,
+            "slots" : 11,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW FISH"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 68,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW FISH"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 62.5,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW FISH"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 62.5,
+            "slots" : 13,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW FISH"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 53,
+            "slots" : 13,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW FISH"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 53,
+            "slots" : 14,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW FISH"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 35,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COOKED FISH"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "FLOWER": {
+      "name" : "FLOWER",
+      "folder": "/assets/minions/Flower",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["DANDELION", "POPPY", "SUNFLOWER", "PEONY", "ORANGE TULIP", "AZURE BLUET", "PINK TULIP", "OXEYE DAISY", "ALLIUM", "ROSE BUSH", "RED TULIP", "WHITE TULIP", "BLUE ORCHID", "LILAC"],
+      "quantity": [5908/17205, 0.18, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04, 0.04],
+      "tiers": [
+         {
+            "cooldown": 30,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Sirius",
+               "buy": {
+                  "price": 8_500_000
+               }
+            }
+         },
+         {
+            "cooldown": 29,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["DANDELION"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["DANDELION"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["DANDELION"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DANDELION"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DANDELION"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DANDELION"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DANDELION"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DANDELION"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED DANDELION"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POPPY"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "GHAST": {
+      "name" : "GHAST",
+      "folder": "/assets/minions/Ghast",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["GHAST TEAR"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 50,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["GHAST TEAR"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 50,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GHAST TEAR"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 47,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GHAST TEAR"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 47,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["GHAST TEAR"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 44,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GHAST TEAR"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 44,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GHAST TEAR"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 41,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["SILVER FANG"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 41,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["SILVER FANG"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["SILVER FANG"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["SILVER FANG"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 32,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["SILVER FANG"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "GLOWSTONE": {
+      "name" : "GLOWSTONE",
+      "folder": "/assets/minions/Glowstone",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["GLOWSTONE DUST"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 25,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["GLOWSTONE DUST"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GLOWSTONE DUST"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GLOWSTONE DUST"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE DUST"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE DUST"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE DUST"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE DUST"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE DUST"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE DUST"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GLOWSTONE"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "GOLD": {
+      "name" : "GOLD",
+      "folder": "/assets/minions/Gold",
+      "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["GOLD ORE"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 22,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["GOLD INGOT"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GOLD INGOT"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["GOLD INGOT"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["GOLD INGOT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD INGOT"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD INGOT"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD INGOT"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD INGOT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD INGOT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD INGOT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 11,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GOLD BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED GOLD BLOCK",
+                  "quantity": 16
+               }
+            }
+         }
+      ]
+   },
+   "GRAVEL": {
+      "name" : "GRAVEL",
+      "folder": "/assets/minions/Gravel",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "FLYCATCHER"],
+      "generated_items": ["GRAVEL", "FLINT"],
+      "quantity": [1, 0.1],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 2,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SHOVEL",
+               "items": ["GRAVEL"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["GRAVEL"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["GRAVEL"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["GRAVEL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED FLINT"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "ICE": {
+      "name" : "ICE",
+      "folder": "/assets/minions/Ice",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["ICE"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 14,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["ICE"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ICE"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ICE"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ICE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["PACKED ICE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["PACKED ICE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["PACKED ICE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ICE"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ICE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ICE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 7,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ICE"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "IRON": {
+      "name" : "IRON",
+      "folder": "/assets/minions/Iron",
+      "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["IRON ORE"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 17,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["IRON INGOT"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["IRON INGOT"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["IRON INGOT"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["IRON INGOT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON INGOT"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON INGOT"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON INGOT"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON INGOT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON INGOT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON INGOT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED IRON BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 7,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED IRON BLOCK",
+                  "quantity": 16
+               }
+            }
+         }
+      ]
+   },
+   "JUNGLE": {
+      "name" : "JUNGLE",
+      "folder": "/assets/minions/Jungle",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["JUNGLE WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["JUNGLE WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["JUNGLE WOOD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["JUNGLE WOOD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["JUNGLE WOOD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED JUNGLE WOOD"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "LAPIS": {
+      "name" : "LAPIS",
+      "folder": "/assets/minions/Lapis",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["LAPIS LAZULI"],
+      "quantity": [6],
+      "tiers": [
+         {
+            "cooldown": 29,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["LAPIS LAZULI"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 29,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["LAPIS LAZULI"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI BLOCK"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED LAPIS LAZULI BLOCK"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED LAPIS BLOCK",
+                  "quantity": 64
+               }
+            }
+         }
+      ]
+   },
+   "MAGMA_CUBE": {
+      "name" : "MAGMA_CUBE",
+      "folder": "/assets/minions/Magma Cube",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["MAGMA CREAM"],
+      "quantity": [1.8],
+      "tiers": [
+         {
+            "cooldown": 32,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["MAGMA CREAM"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 32,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["MAGMA CREAM"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["MAGMA CREAM"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["MAGMA CREAM"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MAGMA CREAM"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "MELON": {
+      "name" : "MELON",
+      "folder": "/assets/minions/Melon",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["MELON"],
+      "quantity": [5],
+      "tiers": [
+         {
+            "cooldown": 24,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["MELON"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["MELON"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22.5,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["MELON BLOCK"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 22.5,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["MELON BLOCK"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["MELON BLOCK"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MELON"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 18.5,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MELON"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 18.5,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MELON"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MELON"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MELON BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MELON BLOCK"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "MITHRIL": {
+      "name" : "MITHRIL",
+      "folder": "/assets/minions/Mithril",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["MITHRIL"],
+      "quantity": [2],
+      "tiers": [
+         {
+            "cooldown": 80,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["MITHRIL"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 80,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["MITHRIL"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 75,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["MITHRIL"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 75,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["MITHRIL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 70,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MITHRIL"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 70,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MITHRIL"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 65,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MITHRIL"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 65,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MITHRIL"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 60,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MITHRIL"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 60,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MITHRIL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 55,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["REFINED MITHRIL"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 50,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "REFINED MITHRIL",
+                  "quantity": 16
+               }
+            }
+         }
+      ]
+   },
+   "MUSHROOM": {
+      "name" : "MUSHROOM",
+      "folder": "/assets/minions/Mushroom",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["BROWN MUSHROOM", "RED MUSHROOM"],
+      "quantity": [0.5, 0.5],
+      "tiers": [
+         {
+            "cooldown": 30,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["BROWN MUSHROOM", "RED MUSHROOM"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BROWN MUSHROOM", "RED MUSHROOM"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BROWN MUSHROOM", "RED MUSHROOM"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 28,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["BROWN MUSHROOM", "RED MUSHROOM"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BROWN MUSHROOM", "ENCHANTED RED MUSHROOM"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "NETHER_WART": {
+      "name" : "NETHER_WART",
+      "folder": "/assets/minions/Nether Wart",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["NETHER WART"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 50,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["NETHER WART"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 50,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["NETHER WART"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 47,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["NETHER WART"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 47,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["NETHER WART"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 44,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 44,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 41,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 41,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 32,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED NETHER WART"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "OAK": {
+      "name" : "OAK",
+      "folder": "/assets/minions/Oak",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["OAK WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["OAK WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["OAK WOOD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["OAK WOOD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["OAK WOOD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OAK WOOD"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "OBSIDIAN": {
+      "name" : "OBSIDIAN",
+      "folder": "/assets/minions/Obsidian",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["OBSIDIAN"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 45,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["OBSIDIAN"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["OBSIDIAN"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["OBSIDIAN"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["OBSIDIAN"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 39,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 39,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 35,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 35,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED OBSIDIAN"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED OBSIDIAN",
+                  "quantity": 1_024
+               }
+            }
+         }
+      ]
+   },
+   "PIG": {
+      "name" : "PIG",
+      "folder": "/assets/minions/Pig",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["RAW PORKCHOP"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["RAW PORKCHOP"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW PORKCHOP"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW PORKCHOP"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW PORKCHOP"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW PORKCHOP"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW PORKCHOP"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW PORKCHOP"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW PORKCHOP"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW PORKCHOP"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RAW PORKCHOP"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED GRILLED PORKCHOP"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "POTATO": {
+      "name" : "POTATO",
+      "folder": "/assets/minions/Potato",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["POTATO"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 20,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["POTATO"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["POTATO"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["POTATO"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POTATO"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POTATO"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POTATO"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POTATO"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 14,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POTATO"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED POTATO"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BAKED POTATO"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BAKED POTATO"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "PUMPKIN": {
+      "name" : "PUMPKIN",
+      "folder": "/assets/minions/Pumpkin",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["PUMPKIN"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 32,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["PUMPKIN"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 32,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["PUMPKIN"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["PUMPKIN"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 30,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["PUMPKIN"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED PUMPKIN"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "QUARTZ": {
+      "name" : "QUARTZ",
+      "folder": "/assets/minions/Quartz",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["NETHER QUARTZ"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["NETHER QUARTZ"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["NETHER QUARTZ"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["NETHER QUARTZ"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["NETHER QUARTZ"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED QUARTZ BLOCK"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "RABBIT": {
+      "name" : "RABBIT",
+      "folder": "/assets/minions/Rabbit",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["RAW RABBIT", "RABBIT'S FOOT", "RABBIT HIDE"],
+      "quantity": [1, 0.35, 0.35],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["RAW RABBIT"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW RABBIT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW RABBIT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["RAW RABBIT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT FOOT"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT FOOT"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT FOOT"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT FOOT"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT FOOT"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT HIDE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED RABBIT HIDE"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "REDSTONE": {
+      "name" : "REDSTONE",
+      "folder": "/assets/minions/Redstone",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["REDSTONE"],
+      "quantity": [4.5],
+      "tiers": [
+         {
+            "cooldown": 29,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_PICKAXE",
+               "items": ["REDSTONE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 29,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["REDSTONE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["REDSTONE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 25,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 21,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 18,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED REDSTONE BLOCK"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "buy",
+               "npc": "Bulvar",
+               "buy": {
+                  "price": 2_000_000,
+                  "content": "ENCHANTED REDSTONE BLOCK",
+                  "quantity": 32
+               }
+            }
+         }
+      ]
+   },
+   "REVENANT": {
+      "name" : "REVENANT",
+      "folder": "/assets/minions/Revenant",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["ROTTEN FLESH", "DIAMOND"],
+      "quantity": [3, 0.2],
+      "tiers": [
+         {
+            "cooldown": 29,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "first_craft_item": "CRYSTALLIZED HEART",
+               "items": ["REVENANT FLESH"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 29,
+            "slots" : 3,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_1",
+               "items": ["REVENANT FLESH"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_2",
+               "items": ["REVENANT FLESH"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 6,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_3",
+               "items": ["REVENANT FLESH"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 6,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_4",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 23,
+            "slots" : 9,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_5",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 9,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_6",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 12,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_7",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 14.5,
+            "slots" : 12,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_8",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 14.5,
+            "slots" : 15,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_9",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 15,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "ZOMBIE_10",
+               "items": ["REVENANT VISCERA"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "SAND": {
+      "name" : "SAND",
+      "folder": "/assets/minions/Sand",
+      "upgrades_compatible": ["AUTO SMELTER", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["SAND"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SHOVEL",
+               "items": ["SAND"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["SAND"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["SAND"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["SAND"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SAND"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "SHEEP": {
+      "name" : "SHEEP",
+      "folder": "/assets/minions/Sheep",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["MUTTON", "WHITE WOOL"],
+      "quantity": [1, 1],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 2,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["MUTTON"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["MUTTON"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["MUTTON"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["MUTTON"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MUTTON"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MUTTON"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MUTTON"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MUTTON"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MUTTON"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED MUTTON"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED COOKED MUTTON"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "SKELETON": {
+      "name" : "SKELETON",
+      "folder": "/assets/minions/Skeleton",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["BONE"],
+      "quantity": [1],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["BONE"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BONE"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["BONE"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["BONE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED BONE"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "SLIME": {
+      "name" : "SLIME",
+      "folder": "/assets/minions/Slime",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["SLIMEBALL"],
+      "quantity": [1.8],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["SLIMEBALL"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["SLIMEBALL"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["SLIMEBALL"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["SLIMEBALL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIMEBALL"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIMEBALL"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIMEBALL"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 19,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIMEBALL"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIMEBALL"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 16,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIMEBALL"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SLIME BLOCK"],
+               "quantity_per_slot": 1
+            }
+         }
+      ]
+   },
+   "SNOW": {
+      "name" : "SNOW",
+      "folder": "/assets/minions/Snow",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["SNOWBALL"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 13,
+            "slots" : 1,
+            "recipe": {
+               "type": "gifts"
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["SNOW BLOCK"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["SNOW BLOCK"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 12,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["SNOW BLOCK"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 11,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["SNOW BLOCK"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 11,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["SNOW BLOCK"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 9.5,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SNOW BLOCK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 9.5,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SNOW BLOCK"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SNOW BLOCK"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SNOW BLOCK"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 6.5,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SNOW BLOCK"],
+               "quantity_per_slot": 16
+            }
+         }
+      ]
+   },
+   "SPIDER": {
+      "name" : "SPIDER",
+      "folder": "/assets/minions/Spider",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["STRING", "SPIDER EYE"],
+      "quantity": [1, 0.5],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["STRING"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["STRING"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["STRING"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["STRING"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED STRING"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "SPRUCE": {
+      "name" : "SPRUCE",
+      "folder": "/assets/minions/Spruce",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["SPRUCE WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_AXE",
+               "items": ["SPRUCE WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["SPRUCE WOOD"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["SPRUCE WOOD"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 45,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["SPRUCE WOOD"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 42,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 38,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 33,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 27,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SPRUCE WOOD"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "SUGAR_CANE": {
+      "name" : "SUGAR_CANE",
+      "folder": "/assets/minions/Sugar Cane",
+      "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"],
+      "generated_items": ["SUGAR CANE"],
+      "quantity": [3],
+      "tiers": [
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["SUGAR CANE"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["SUGAR CANE"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["SUGAR CANE"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR"],
+               "quantity_per_slot": 3
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR CANE"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED SUGAR CANE"],
+               "quantity_per_slot": 2
+            }
+         }
+      ]
+   },
+   "TARANTULA": {
+      "name" : "TARANTULA",
+      "folder": "/assets/minions/Tarantula",
+      "upgrades_compatible": ["AUTO SMELTER", "COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLINT SHOVEL", "ENCHANTED EGG", "FLYCATCHER"],
+      "generated_items": ["ACACIA WOOD"],
+      "quantity": [4],
+      "tiers": [
+         {
+            "cooldown": 29,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "first_craft_item": "ENCHANTED FERMENTED SPIDER EYE",
+               "items": ["TARANTULA WEB"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_1",
+               "items": ["TARANTULA WEB"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_2",
+               "items": ["TARANTULA WEB"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_3",
+               "items": ["TARANTULA WEB"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_4",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_5",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_6",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_7",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_8",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_9",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 48,
+            "slots" : 1,
+            "recipe": {
+               "type": "slayer",
+               "extra_item": "SPIDER_10",
+               "items": ["TARANTULA SILK"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   },
+   "WHEAT": {
+      "name" : "WHEAT",
+      "folder": "/assets/minions/Wheat",
+      "upgrades_compatible": ["COMPACTOR", "SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["WHEAT", "SEEDS"],
+      "quantity": [1, 1],
+      "tiers": [
+         {
+            "cooldown": 15,
+            "slots" : 2,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_HOE",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 15,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 4,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 11,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 11,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 10,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 9,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 8,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ACACIA WOOD"],
+               "quantity_per_slot": 10
+            }
+         }
+      ]
+   },
+   "ZOMBIE": {
+      "name" : "ZOMBIE",
+      "folder": "/assets/minions/Zombie",
+      "upgrades_compatible": ["SUPER COMPACTOR 3000", "DWARVEN SUPER COMPACTOR", "DIAMOND SPREADING", "MINION EXPANDER", "FLYCATCHER"],
+      "generated_items": ["ROTTEN FLESH", "POISONOUS POTATO"],
+      "quantity": [1, 0.025],
+      "tiers": [
+         {
+            "cooldown": 26,
+            "slots" : 1,
+            "recipe": {
+               "type": "craft",
+               "first_craft_item": "WOODEN_SWORD",
+               "items": ["ROTTEN FLESH"],
+               "quantity_per_slot": 10
+            }
+         },
+         {
+            "cooldown": 26,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ROTTEN FLESH"],
+               "quantity_per_slot": 20
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 3,
+            "recipe": {
+               "type": "craft",
+               "items": ["ROTTEN FLESH"],
+               "quantity_per_slot": 40
+            }
+         },
+         {
+            "cooldown": 24,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ROTTEN FLESH"],
+               "quantity_per_slot": 64
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 6,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 1
+            }
+         },
+         {
+            "cooldown": 22,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 2
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 9,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 4
+            }
+         },
+         {
+            "cooldown": 20,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 8
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 12,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 16
+            }
+         },
+         {
+            "cooldown": 17,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 32
+            }
+         },
+         {
+            "cooldown": 13,
+            "slots" : 15,
+            "recipe": {
+               "type": "craft",
+               "items": ["ENCHANTED ROTTEN FLESH"],
+               "quantity_per_slot": 64
+            }
+         }
+      ]
+   }
+}

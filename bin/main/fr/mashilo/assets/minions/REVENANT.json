@@ -1,0 +1,131 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 29,
+         "recipe": {
+            "first_craft_item": "CRYSTALLIZED_HEART",
+            "quantity_per_slot": 10,
+            "type": "slayer",
+            "items": ["REVENANT_FLESH"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 29,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_1",
+            "items": ["REVENANT_FLESH"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_2",
+            "items": ["REVENANT_FLESH"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_3",
+            "items": ["REVENANT_FLESH"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_4",
+            "items": ["REVENANT_VISCERA"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_5",
+            "items": ["REVENANT_VISCERA"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 19,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_6",
+            "items": ["REVENANT_VISCERA"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 19,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_7",
+            "items": ["REVENANT_VISCERA"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 14.5,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_8",
+            "items": ["REVENANT_VISCERA"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 14.5,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_9",
+            "items": ["REVENANT_VISCERA"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 10,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "slayer",
+            "extra_item": "ZOMBIE_10",
+            "items": ["REVENANT_VISCERA"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Revenant",
+   "quantity": [
+      3,
+      0.2
+   ],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "REVENANT",
+   "generated_items": [
+      "ROTTEN_FLESH",
+      "DIAMOND"
+   ]
+}

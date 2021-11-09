@@ -1,0 +1,115 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 27,
+         "recipe": {
+            "first_craft_item": "WOODEN_SWORD",
+            "quantity_per_slot": 10,
+            "type": "craft",
+            "items": ["GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 27,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": ["GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 25,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": ["GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 25,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 3,
+            "type": "craft",
+            "items": ["ENCHANTED_GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 21,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 21,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 18,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 18,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_GUNPOWDER"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 14,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "craft",
+            "items": ["ENCHANTED_FIREWORK_ROCKET"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Creeper",
+   "quantity": [1],
+   "upgrades_compatible": [
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "CREEPER",
+   "generated_items": ["GUNPOWDER"]
+}

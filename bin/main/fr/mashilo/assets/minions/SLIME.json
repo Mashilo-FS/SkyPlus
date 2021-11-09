@@ -1,0 +1,116 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 26,
+         "recipe": {
+            "first_craft_item": "WOODEN_SWORD",
+            "quantity_per_slot": 10,
+            "type": "craft",
+            "items": ["SLIMEBALL"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 26,
+         "recipe": {
+            "quantity_per_slot": 20,
+            "type": "craft",
+            "items": ["SLIMEBALL"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 24,
+         "recipe": {
+            "quantity_per_slot": 40,
+            "type": "craft",
+            "items": ["SLIMEBALL"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 24,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["SLIMEBALL"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 22,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIME_BALL"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 22,
+         "recipe": {
+            "quantity_per_slot": 3,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIME_BALL"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 19,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIME_BALL"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 19,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIME_BALL"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 16,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIME_BALL"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 16,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIMEBALL"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 12,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_SLIME_BLOCK"]
+         }
+      }
+   ],
+   "folder": "/assets/minions/Slime",
+   "quantity": [1.8],
+   "upgrades_compatible": [
+      "COMPACTOR",
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "SLIME",
+   "generated_items": ["SLIMEBALL"]
+}

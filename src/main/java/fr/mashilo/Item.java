@@ -21,6 +21,7 @@ public class Item {
         this.family = itemFile.getJSONObject("family");
         this.recipes = itemFile.getJSONObject("recipes");
         this.market = itemFile.getJSONObject("market");
+        //La c'est pas très beau, mais j'ai fait ce code il y a quelques temps ok ?!
     }
 
     public synchronized String getID(){

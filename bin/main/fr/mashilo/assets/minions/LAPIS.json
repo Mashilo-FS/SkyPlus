@@ -1,0 +1,129 @@
+{
+   "tiers": [
+      {
+         "slots": 1,
+         "cooldown": 29,
+         "recipe": {
+            "first_craft_item": "WOODEN_PICKAXE",
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["INK_SACK:4"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 29,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["INK_SACK:4"]
+         }
+      },
+      {
+         "slots": 3,
+         "cooldown": 27,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 27,
+         "recipe": {
+            "quantity_per_slot": 3,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI"]
+         }
+      },
+      {
+         "slots": 6,
+         "cooldown": 25,
+         "recipe": {
+            "quantity_per_slot": 8,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 25,
+         "recipe": {
+            "quantity_per_slot": 16,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI"]
+         }
+      },
+      {
+         "slots": 9,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 32,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 23,
+         "recipe": {
+            "quantity_per_slot": 64,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI"]
+         }
+      },
+      {
+         "slots": 12,
+         "cooldown": 21,
+         "recipe": {
+            "quantity_per_slot": 1,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI_BLOCK"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 21,
+         "recipe": {
+            "quantity_per_slot": 2,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI_BLOCK"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 18,
+         "recipe": {
+            "quantity_per_slot": 4,
+            "type": "craft",
+            "items": ["ENCHANTED_LAPIS_LAZULI_BLOCK"]
+         }
+      },
+      {
+         "slots": 15,
+         "cooldown": 16,
+         "recipe": {
+            "npc": "Bulvar",
+            "buy": {
+               "quantity": 64,
+               "price": "2_000_000",
+               "content": "ENCHANTED_LAPIS_LAZULI_BLOCK"
+            },
+            "type": "buy"
+         }
+      }
+   ],
+   "folder": "/assets/minions/Lapis",
+   "quantity": [6],
+   "upgrades_compatible": [
+      "COMPACTOR",
+      "SUPER COMPACTOR 3000",
+      "DWARVEN SUPER COMPACTOR",
+      "DIAMOND SPREADING",
+      "MINION EXPANDER",
+      "FLYCATCHER"
+   ],
+   "name": "LAPIS",
+   "generated_items": ["INK_SACK:4"]
+}
