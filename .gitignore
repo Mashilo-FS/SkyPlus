@@ -70,3 +70,6 @@ node_modules/
 #Configuration File with sensitive informations
 src/main/java/fr/mashilo/Config.java
 *.lock
+
+#VSCode files
+.project
